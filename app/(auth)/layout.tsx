@@ -21,8 +21,10 @@ export default function AuthLayout({
   })
 
   return (
-    <main className="flex">
-      {children}
+    <main className="flex flex-col min-h-screen overflow-hidden">
+      <div className="flex-grow">
+        {children}
+      </div>
     </main>
   )
 }
