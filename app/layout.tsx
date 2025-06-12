@@ -4,6 +4,7 @@ import { Inter, Playfair_Display } from 'next/font/google'
 import { Providers } from './providers'
 import Header from '@/components/ui/header'
 import Footer from '@/components/ui/footer'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 import Script from 'next/script';
 
 const inter = Inter({
@@ -30,24 +31,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
-      {/* Google tag (gtag.js) */}
-      <Script
-        strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-7XL1WY86VY"
-      />
-      <Script
-        id="gtag-init"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-7XL1WY86VY');
-          `,
-        }}
-      />
+      <GoogleAnalytics />
       {/* Ahrefs script */}
       <Script
         strategy="afterInteractive"
