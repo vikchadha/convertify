@@ -7,12 +7,14 @@ export const Blog = defineDocumentType(() => ({
   filePathPattern: `blog/*.mdx`,
   contentType: 'mdx',
   fields: {
+    _id: { type: 'string', required: false },
     title: { type: 'string', required: true },
     summary: { type: 'string', required: false },
     publishedAt: { type: 'date', required: true },
     author: { type: 'string', required: false },
     image: { type: 'string', required: false },
     authorImg: { type: 'string', required: false },
+    tags: { type: 'list', of: { type: 'string' }, required: false },
   },
   computedFields: {
     slug: {
