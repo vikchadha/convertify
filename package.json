@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check-links": "linkinator http://localhost:3002 --recurse --skip-external",
+    "postinstall": "contentlayer build"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",
@@ -18,14 +20,17 @@
     "@types/react": "19.1.8",
     "@types/react-dom": "19.1.6",
     "aos": "3.0.0-beta.6",
+    "contentlayer": "^0.3.4",
     "date-fns": "^4.1.0",
     "lucide-react": "0.453.0",
     "next": "15.3.3",
+    "next-contentlayer": "^0.3.4",
     "next-mdx-remote": "^5.0.0",
     "next-themes": "^0.4.6",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "rehype-pretty-code": "^0.14.1",
+    "remark-gfm": "^4.0.1",
     "typescript": "^5.8.3"
   },
   "devDependencies": {
@@ -33,6 +38,7 @@
     "@tailwindcss/postcss": "^4.1.9",
     "@tailwindcss/typography": "^0.5.16",
     "@types/aos": "^3.0.7",
+    "linkinator": "^6.1.4",
     "postcss": "^8.5.4",
     "tailwindcss": "^4.1.9"
   }

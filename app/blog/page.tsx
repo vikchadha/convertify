@@ -14,7 +14,7 @@ export const metadata = {
     url: 'https://convertify.com/blog',
     images: [
       {
-        url: 'https://convertify.com/og-image-blog.jpg',
+        url: 'https://convertify.com/images/blog-post-01.jpg',
         width: 1200,
         height: 630,
         alt: 'Convertify Blog',

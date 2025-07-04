@@ -15,10 +15,11 @@ export default function CtaBox() {
 
           {/* CTA content */}
           <div className="text-center lg:text-left lg:max-w-xl">
-            <h3 className="h3 font-playfair-display text-slate-100 mb-8">Say goodbye to long queues, big updates, and <span className="text-emerald-500">confusion</span>.</h3>
+            <h3 className="h3 font-playfair-display text-slate-100 mb-4">Ready to Turn Your Content Ideas Into <span className="text-emerald-500">Lead Magnets That Convert</span>?</h3>
+            <p className="text-lg text-slate-400 mb-8">Stop spending hours on manual lead magnet creation. With Convertify's AI, you can generate high-converting ebooks, guides, and checklists in minutes. Start capturing more leads today!</p>
             <div className="mb-3">
-              <a className="btn text-white bg-blue-600 hover:bg-blue-700 group" href="#0">
-                Start free trial <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+              <a className="btn text-white bg-blue-600 hover:bg-blue-700 group" href="/signup">
+                Start Free Trial <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </a>
             </div>
             <div className="text-sm italic text-slate-500">No credit card required. Cancel anytime!</div>

@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="dark" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <GoogleAnalytics />
       {/* Ahrefs script */}
       <Script
@@ -39,7 +39,7 @@ export default function RootLayout({
         data-key="DWNc4im9UO0vNwU8ERP0Yw"
         async
       />
-      <body className={`${inter.variable} ${playfair.variable} font-inter antialiased bg-white dark:bg-gray-900 text-slate-800 dark:text-slate-100 tracking-tight`}>
+      <body className={`${inter.variable} ${playfair.variable} font-inter antialiased bg-white text-slate-800 tracking-tight`}>
         <Providers>
           <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
             <Header />
