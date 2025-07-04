@@ -1,3 +1,5 @@
+'use client'
+
 import { useMDXComponent } from 'next-contentlayer/hooks';
 
 interface BlogPostContentProps {
@@ -5,6 +7,5 @@ interface BlogPostContentProps {
 }
 
 export default function BlogPostContent({ code }: BlogPostContentProps) {
-  const MDXContent = useMDXComponent(code);
-  return <MDXContent />;
+  return <div dangerouslySetInnerHTML={{ __html: code }} />;
 } 
