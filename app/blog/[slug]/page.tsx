@@ -4,19 +4,13 @@ import { ArrowLeft, Calendar, Clock, User } from 'lucide-react';
 import { allBlogs } from 'contentlayer/generated';
 import BlogPostContent from './BlogPostContent';
 
-interface BlogPostPageProps {
-  params: {
-    slug: string;
-  };
-}
-
 export async function generateStaticParams() {
   return allBlogs.map((post) => ({
     slug: post.slug,
   }));
 }
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
+export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = allBlogs.find((p) => p.slug === params.slug);
 
   if (!post) {
