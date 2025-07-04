@@ -1,12 +1,9 @@
-'use client'
-
-import { useMDXComponent } from 'next-contentlayer/hooks';
+import { MDXRemote } from 'next-mdx-remote/rsc';
 
 interface BlogPostContentProps {
   code: string;
 }
 
 export default function BlogPostContent({ code }: BlogPostContentProps) {
-  const MDXContent = useMDXComponent(code);
-  return <MDXContent />;
+  return <MDXRemote source={code} />;
 } 
