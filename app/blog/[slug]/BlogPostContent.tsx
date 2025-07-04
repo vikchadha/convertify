@@ -7,5 +7,6 @@ interface BlogPostContentProps {
 }
 
 export default function BlogPostContent({ code }: BlogPostContentProps) {
-  return <div dangerouslySetInnerHTML={{ __html: code }} />;
+  const MDXContent = useMDXComponent(code);
+  return <MDXContent />;
 } 

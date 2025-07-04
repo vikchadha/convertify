@@ -68,7 +68,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
             {/* Article content */}
             <div className="prose prose-lg prose-slate dark:prose-invert max-w-none">
-              <BlogPostContent code={post.body.html} />
+              <BlogPostContent code={post.body.raw} />
             </div>
           </article>
 
