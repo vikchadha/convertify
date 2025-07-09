@@ -1,37 +1,21 @@
-import React from 'react'
-import { Metadata } from 'next'
-
-export const metadata: Metadata = {
+export const metadata = {
   title: 'Contact Us | Convertify',
   description: 'Reach out to Convertify for questions, support, or partnership opportunities. We are eager to connect and assist you!',
-  alternates: {
-    canonical: '/contact',
-  },
 }
 
-interface ContactPageProps {
-  searchParams: Promise<{ subject?: string }>;
-}
-
-export default async function ContactPage({ searchParams }: ContactPageProps) {
-  const params = await searchParams
-  const subject = params.subject
-  
+export default function ContactPage() {
   return (
-    <React.Fragment>
+    <div>
       {/* Page Header */}
       <section className="bg-white dark:bg-gray-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="pt-32 pb-12 md:pt-40 md:pb-16">
             <div className="max-w-3xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4 text-gray-900 dark:text-white">
-                {subject === 'Enterprise Plan Inquiry' ? 'Enterprise Plan Inquiry' : 'Get in Touch – We're Here to Help!'}
+                Get in Touch – We're Here to Help!
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-400">
-                {subject === 'Enterprise Plan Inquiry' 
-                  ? 'Interested in our Enterprise plan? Let us know your specific requirements and we\'ll get back to you with a customized solution.'
-                  : 'Whether you have a question about features, pricing, need a demo, require support, or want to discuss partnerships, our team is ready to answer all your questions.'
-                }
+                Whether you have a question about features, pricing, need a demo, require support, or want to discuss partnerships, our team is ready to answer all your questions.
               </p>
             </div>
           </div>
@@ -87,15 +71,9 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Email Address</label>
                   <input type="email" name="email" id="email" placeholder="you@example.com" disabled className="mt-1 block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm dark:bg-gray-600 dark:text-white" />
                 </div>
-                {subject && (
-                  <div className="mb-4">
-                    <label htmlFor="subject" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Subject</label>
-                    <input type="text" name="subject" id="subject" value={subject} disabled className="mt-1 block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm dark:bg-gray-600 dark:text-white" />
-                  </div>
-                )}
                 <div className="mb-4">
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Message</label>
-                  <textarea name="message" id="message" rows={4} placeholder={subject === 'Enterprise Plan Inquiry' ? 'Please tell us about your organization size, specific requirements, and timeline...' : 'Your message...'} disabled className="mt-1 block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm dark:bg-gray-600 dark:text-white"></textarea>
+                  <textarea name="message" id="message" rows={4} placeholder="Your message..." disabled className="mt-1 block w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm dark:bg-gray-600 dark:text-white"></textarea>
                 </div>
                 <button type="submit" disabled className="w-full btn text-white bg-blue-600 hover:bg-blue-700 disabled:opacity-50">
                   Send Message (Coming Soon)
@@ -113,6 +91,6 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
           </div>
         </div>
       </section>
-    </React.Fragment>
+    </div>
   )
 }
