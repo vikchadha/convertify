@@ -17,7 +17,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
   const subject = params.subject;
   
   return (
-    <>
+    <div>
       {/* Page Header */}
       <section className="bg-white dark:bg-gray-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -112,6 +112,6 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
