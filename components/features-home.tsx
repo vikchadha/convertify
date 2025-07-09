@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Transition } from '@headlessui/react'
 import FeaturesImage from '@/public/images/features-home-01.jpg'
 
@@ -96,6 +97,12 @@ export default function FeaturesHome() {
                   <div className="w-full transition ease-in-out data-closed:opacity-0 data-enter:duration-700 data-enter:data-closed:-translate-y-16 data-closed:absolute data-leave:duration-300 data-leave:data-closed:translate-y-16">
                     <Image className="mx-auto shadow-2xl" src={FeaturesImage} width={768} height={474} alt="AI Content Creation" />
                     <h3 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-3">Generate Complete Lead Magnets with AI</h3><p className="text-lg text-slate-600 dark:text-slate-400 mt-4 text-center max-w-2xl mx-auto">Simply provide a topic or existing content, and watch our AI craft engaging ebooks, guides, and checklists. <strong className="text-blue-600 dark:text-blue-500">Save days of writing and research</strong>, and get to market faster.</p>
+                    <div className="text-center mt-4">
+                      <Link href="/features/ai-content-creation" className="inline-flex items-center text-blue-600 hover:text-blue-500 font-medium">
+                        Learn more about AI Content Creation
+                        <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                      </Link>
+                    </div>
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -103,6 +110,12 @@ export default function FeaturesHome() {
                   <div className="w-full transition ease-in-out data-closed:opacity-0 data-enter:duration-700 data-enter:data-closed:-translate-y-16 data-closed:absolute data-leave:duration-300 data-leave:data-closed:translate-y-16">
                     <Image className="mx-auto shadow-2xl" src={FeaturesImage} width={768} height={474} alt="Custom Templates" />
                     <h3 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-3">Professionally Designed & Customizable</h3><p className="text-lg text-slate-600 dark:text-slate-400 mt-4 text-center max-w-2xl mx-auto">Impress your audience with stunning, professionally designed templates. Easily customize every element to <strong className="text-blue-600 dark:text-blue-500">perfectly match your brand identity</strong> without needing a designer.</p>
+                    <div className="text-center mt-4">
+                      <Link href="/features/design-automation" className="inline-flex items-center text-blue-600 hover:text-blue-500 font-medium">
+                        Learn more about Design Automation
+                        <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                      </Link>
+                    </div>
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -110,6 +123,12 @@ export default function FeaturesHome() {
                   <div className="w-full transition ease-in-out data-closed:opacity-0 data-enter:duration-700 data-enter:data-closed:-translate-y-16 data-closed:absolute data-leave:duration-300 data-leave:data-closed:translate-y-16">
                     <Image className="mx-auto shadow-2xl" src={FeaturesImage} width={768} height={474} alt="Automated Delivery" />
                     <h3 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-3">Automate Delivery & Integration</h3><p className="text-lg text-slate-600 dark:text-slate-400 mt-4 text-center max-w-2xl mx-auto">Connect Convertify with your existing marketing stack. <strong className="text-blue-600 dark:text-blue-500">Automatically deliver lead magnets</strong> and sync new subscribers to your email platform, CRM, or other tools.</p>
+                    <div className="text-center mt-4">
+                      <Link href="/features/lead-magnet-generation" className="inline-flex items-center text-blue-600 hover:text-blue-500 font-medium">
+                        Learn more about Lead Magnet Generation
+                        <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                      </Link>
+                    </div>
                   </div>
                 </Transition>
                 {/* Item 4 */}
@@ -117,6 +136,12 @@ export default function FeaturesHome() {
                   <div className="w-full transition ease-in-out data-closed:opacity-0 data-enter:duration-700 data-enter:data-closed:-translate-y-16 data-closed:absolute data-leave:duration-300 data-leave:data-closed:translate-y-16">
                     <Image className="mx-auto shadow-2xl" src={FeaturesImage} width={768} height={474} alt="Performance Analytics" />
                     <h3 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-3">Track & Optimize Performance</h3><p className="text-lg text-slate-600 dark:text-slate-400 mt-4 text-center max-w-2xl mx-auto">Gain valuable insights into your lead magnet performance. Track downloads, conversion rates, and engagement to <strong className="text-blue-600 dark:text-blue-500">continuously refine your strategy and maximize ROI.</strong></p>
+                    <div className="text-center mt-4">
+                      <Link href="/features/analytics" className="inline-flex items-center text-blue-600 hover:text-blue-500 font-medium">
+                        Learn more about Analytics & Insights
+                        <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
+                      </Link>
+                    </div>
                   </div>
                 </Transition>
               </div>

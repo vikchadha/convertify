@@ -69,6 +69,9 @@ export default function Footer() {
               <li className="mb-2">
                 <Link href="/templates" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition duration-150 ease-in-out">Templates</Link>
               </li>
+              <li className="mb-2">
+                <Link href="/support" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition duration-150 ease-in-out">Support</Link>
+              </li>
 
             </ul>
           </div>
