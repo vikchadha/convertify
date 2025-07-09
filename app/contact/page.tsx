@@ -1,3 +1,4 @@
+import React from 'react'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -13,11 +14,11 @@ interface ContactPageProps {
 }
 
 export default async function ContactPage({ searchParams }: ContactPageProps) {
-  const params = await searchParams;
-  const subject = params.subject;
+  const params = await searchParams
+  const subject = params.subject
   
   return (
-    <div>
+    <React.Fragment>
       {/* Page Header */}
       <section className="bg-white dark:bg-gray-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -112,6 +113,6 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
           </div>
         </div>
       </section>
-    </div>
+    </React.Fragment>
   )
 }
