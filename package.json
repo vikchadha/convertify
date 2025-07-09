@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "check-links": "linkinator http://localhost:3002 --recurse --skip-external",
+    "check-links": "linkinator http://localhost:3000 --recurse --skip-external",
     "postinstall": "contentlayer build"
   },
   "dependencies": {
