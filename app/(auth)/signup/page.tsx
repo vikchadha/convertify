@@ -6,7 +6,13 @@ export const metadata = {
   description: 'Create your Convertify account and start generating high-converting lead magnets with AI.',
 };
 
-export default function SignupPage() {
+interface SignupPageProps {
+  searchParams: Promise<{ plan?: string }>;
+}
+
+export default async function SignupPage({ searchParams }: SignupPageProps) {
+  const params = await searchParams;
+  const selectedPlan = params.plan;
   return (
     <section className="relative">
       {/* Background image */}
@@ -18,10 +24,14 @@ export default function SignupPage() {
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h1 className="h1 font-playfair-display text-slate-800 dark:text-slate-100 mb-4">
-              Start Your Free Trial
+              {selectedPlan === 'pro' ? 'Start Your Pro Trial' : 
+               selectedPlan === 'starter' ? 'Start Your Starter Trial' : 
+               'Start Your Free Trial'}
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-400">
-              Join thousands of marketers who are already using Convertify to create high-converting lead magnets in minutes.
+              {selectedPlan === 'pro' ? 'Unlock advanced features with our Pro plan and take your lead generation to the next level.' :
+               selectedPlan === 'starter' ? 'Get started with our Starter plan and begin creating high-converting lead magnets.' :
+               'Join thousands of marketers who are already using Convertify to create high-converting lead magnets in minutes.'}
             </p>
           </div>
 
