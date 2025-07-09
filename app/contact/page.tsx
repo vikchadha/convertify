@@ -15,6 +15,7 @@ interface ContactPageProps {
 export default async function ContactPage({ searchParams }: ContactPageProps) {
   const params = await searchParams;
   const subject = params.subject;
+  
   return (
     <>
       {/* Page Header */}
