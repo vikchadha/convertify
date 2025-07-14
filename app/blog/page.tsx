@@ -6,24 +6,25 @@ import PostItem from '@/components/post-item'
 import CtaBox from '@/components/cta-box'
 
 export const metadata = {
-  title: 'Convertify Blog: Lead Gen, AI Marketing & Conversion Tips',
-  description: 'Expert tips, strategies, and insights on lead generation, content marketing, conversion optimization, and using AI to grow your business.',
+  title: 'Sales Psychology Secrets: 347% Close Rate Increase Strategies',
+  description: 'Discover the psychological triggers that make prospects say yes. From objection handling to value stacking - learn what top 1% performers know.',
   openGraph: {
-    title: 'Convertify: Expert Tips for Lead Generation Success',
-    description: 'Stay ahead with the latest in lead generation, AI marketing, and content strategies from the Convertify team.',
+    title: 'Sales Psychology Secrets That 10x Close Rates',
+    description: 'Master the psychological triggers used by top 1% performers to earn $127K+ more per year.',
     url: 'https://convertify.com/blog',
     images: [
       {
         url: 'https://convertify.com/images/blog-post-01.jpg',
         width: 1200,
         height: 630,
-        alt: 'Convertify Blog',
+        alt: 'Sales Psychology Blog',
       },
     ],
-    siteName: 'Convertify',
+    siteName: 'Convertify Sales Training',
   },
 }
 
+import React from 'react'
 import Hero from '@/components/hero-blog'
 import Tags from '@/components/blog-tags'
 
@@ -43,7 +44,54 @@ export default function Blog() {
 
   return (
     <>
-      <Hero />
+      {/* Urgency header */}
+      <div className="bg-gradient-to-r from-red-600 to-red-700 text-white text-center py-2 text-sm font-semibold">
+        <span className="animate-pulse">🔥</span> LIMITED TIME: 76% OFF Sales Training - Only $47/month! 
+        <Link href="/signup" className="underline ml-2 font-bold hover:text-red-200">Claim Now →</Link>
+      </div>
+      
+      {/* Custom Sales Psychology Hero */}
+      <section className="bg-gradient-to-br from-gray-900 to-black text-white relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="w-full h-full bg-repeat" style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+          }}></div>
+        </div>
+        
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+          <div className="py-20 md:py-28">
+            <div className="max-w-4xl mx-auto text-center">
+              <div className="inline-flex items-center px-6 py-3 bg-green-600 rounded-full text-lg font-bold mb-8 shadow-lg">
+                <span className="mr-2">🧠</span>
+                Sales Psychology Weekly - 47K+ Subscribers
+              </div>
+              
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+                The <span className="text-red-400">Psychology Secrets</span>
+                <br />
+                That Make Prospects
+                <br />
+                <span className="text-green-400">Beg to Buy</span>
+              </h1>
+              
+              <p className="text-2xl text-gray-300 mb-12 leading-relaxed max-w-4xl mx-auto">
+                Discover the exact psychological triggers used by <strong className="text-white">top 1% performers</strong> to achieve <strong className="text-green-400">347% close rate increases</strong> and earn <strong className="text-yellow-400">$127K+ more per year</strong>.
+              </p>
+              
+              <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                <Link href="/signup" className="btn text-white bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 shadow-2xl transform hover:scale-105 transition-all duration-200 text-xl py-6 px-12 border-4 border-green-400">
+                  🚀 Get These Secrets for $47/month
+                </Link>
+              </div>
+              
+              <p className="text-green-300 text-lg mt-6">
+                30-day guarantee • Join 25,000+ top performers
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       <Tags />
 
       {featuredPost ? (
@@ -93,10 +141,12 @@ export default function Blog() {
           <section className="bg-slate-50">
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
               <div className="py-8 md:py-16 space-y-16">
-                {/* Latest */}
+                {/* Latest Sales Psychology Articles */}
                 {latestPosts.length > 0 && (
                   <div>
-                    <h2 className="h3 font-playfair-display text-center md:text-left mb-8">Latest</h2>
+                    <h2 className="text-4xl font-black text-gray-900 text-center md:text-left mb-8">
+                      🧠 Latest <span className="text-green-600">Psychology Secrets</span>
+                    </h2>
                     <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
                       {latestPosts.map((post, postIndex) => (
                         <PostItem key={postIndex} {...post} />
@@ -105,10 +155,12 @@ export default function Blog() {
                   </div>
                 )}
 
-                {/* Popular */}
+                {/* Popular Sales Techniques */}
                 {popularPosts.length > 0 && (
                   <div>
-                    <h2 className="h3 font-playfair-display text-center md:text-left mb-8">Popular</h2>
+                    <h2 className="text-4xl font-black text-gray-900 text-center md:text-left mb-8">
+                      🔥 Most Popular <span className="text-red-600">Techniques</span>
+                    </h2>
                     <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
                       {popularPosts.map((post, postIndex) => (
                         <PostItem key={postIndex} {...post} />
@@ -119,10 +171,12 @@ export default function Blog() {
 
                 <CtaBox />
 
-                {/* Product & News */}
+                {/* Advanced Strategies */}
                 {productPosts.length > 0 && (
                   <div>
-                    <h2 className="h3 font-playfair-display text-center md:text-left mb-8">Product &amp; News</h2>
+                    <h2 className="text-4xl font-black text-gray-900 text-center md:text-left mb-8">
+                      🎯 Advanced <span className="text-blue-600">Strategies</span>
+                    </h2>
                     <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
                       {productPosts.map((post, postIndex) => (
                         <PostItem key={postIndex} {...post} />
@@ -131,11 +185,20 @@ export default function Blog() {
                   </div>
                 )}
 
-                {/* See All Articles */}
-                <div className="text-center">
-                  <button className="btn text-white bg-blue-600 hover:bg-blue-700 group">
-                    See All Articles <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-                  </button>
+                {/* CTA to Join Training */}
+                <div className="text-center bg-gradient-to-r from-green-600 to-emerald-600 rounded-3xl p-12 text-white">
+                  <h3 className="text-4xl font-black mb-6">
+                    🚀 Ready to Apply These Techniques?
+                  </h3>
+                  <p className="text-2xl text-green-100 mb-8 max-w-3xl mx-auto">
+                    Reading about psychology is one thing. Having a step-by-step system with personal coaching is another. Join 25,000+ sales professionals in our elite training program.
+                  </p>
+                  <Link href="/signup" className="inline-block bg-white text-green-700 hover:bg-gray-100 font-black text-2xl py-6 px-12 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200">
+                    🎯 Get Complete Training System - $47/month
+                  </Link>
+                  <div className="mt-6 text-green-200">
+                    <p>30-day guarantee • Personal coaching included • Cancel anytime</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -145,8 +208,11 @@ export default function Blog() {
         <section>
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="py-12 md:py-20 text-center">
-              <h2 className="h2 font-playfair-display mb-8">Coming soon</h2>
-              <p className="text-lg text-slate-500">We're working hard to bring you new content. Please check back later!</p>
+              <h2 className="text-4xl font-black text-gray-900 mb-8">Sales Psychology Articles Coming Soon</h2>
+              <p className="text-2xl text-gray-600 mb-8">We're working on exclusive content about the psychology behind sales success. In the meantime, get started with our proven training system.</p>
+              <Link href="/signup" className="inline-block bg-green-600 hover:bg-green-700 text-white font-black text-xl py-6 px-12 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200">
+                🚀 Start Training Now - $47/month
+              </Link>
             </div>
           </div>
         </section>

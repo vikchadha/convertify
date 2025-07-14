@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Convertify | AI-Powered Lead Magnet Automation',
-  description: 'Stop wasting time on manual lead magnet creation. Convertify uses AI to build high-converting ebooks, guides, and checklists in minutes. Start your free trial today!',
+  title: 'Convertify | Master the Psychology of Persuasion in Every Conversation',
+  description: 'Every conversation is a sale. Master the psychology to close deals, raise funds, land dream jobs, get buy-in, recruit talent, and win in life. Join 25,000+ using psychology to get what they want.',
 }
 
 import Hero from '@/components/hero-home'

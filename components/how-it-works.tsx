@@ -1,45 +1,159 @@
 export default function HowItWorks() {
   return (
-    <section className="relative bg-gray-50 dark:bg-gray-800 py-12 md:py-20">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-gray-900 dark:text-white">Unlock Lead Magnets in 3 Simple Steps</h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400">Transform your content strategy and capture more leads effortlessly with Convertify's AI-powered platform.</p>
+    <section className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        {/* Section header */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
+            From <span className="text-red-600">Struggling Salesperson</span> to
+            <br />
+            <span className="text-green-600">Revenue Machine</span> in 30 Days
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Follow this proven 4-phase transformation system that's turned thousands of average salespeople into <strong>top 1% earners</strong>.
+          </p>
         </div>
 
-        {/* Items */}
-        <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 items-start md:max-w-none">
+        {/* Timeline steps */}
+        <div className="relative">
+          {/* Timeline line */}
+          <div className="absolute left-8 md:left-1/2 top-16 bottom-16 w-1 bg-gradient-to-b from-red-500 via-yellow-500 to-green-500 transform md:-translate-x-0.5"></div>
 
-          {/* 1st item */}
-          <div className="relative flex flex-col items-center p-6 bg-white dark:bg-gray-900 rounded-xl shadow-lg transition duration-300 ease-in-out hover:shadow-2xl">
-            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -mt-4">
-              <div className="flex items-center justify-center w-10 h-10 bg-blue-600 text-white rounded-full font-bold text-lg">1</div>
+          {/* Week 1 */}
+          <div className="relative flex items-center mb-16">
+            <div className="absolute left-4 md:left-1/2 w-8 h-8 bg-red-500 rounded-full flex items-center justify-center text-white font-bold transform md:-translate-x-4">1</div>
+            <div className="md:w-1/2 ml-16 md:ml-0 md:pr-16">
+              <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-8">
+                <div className="flex items-center mb-4">
+                  <span className="text-3xl mr-3">🧠</span>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900">Week 1: Mindset Reprogramming</h3>
+                    <p className="text-red-600 font-semibold">Break the Fear Patterns</p>
+                  </div>
+                </div>
+                <p className="text-gray-700 mb-4">
+                  Eliminate limiting beliefs about rejection, money, and authority. Install the <strong>"Hunter Mindset"</strong> that makes you relentless in pursuit of deals.
+                </p>
+                <div className="grid grid-cols-2 gap-3 text-sm">
+                  <div className="bg-white/60 p-2 rounded">✓ Overcome call reluctance</div>
+                  <div className="bg-white/60 p-2 rounded">✓ Price with confidence</div>
+                  <div className="bg-white/60 p-2 rounded">✓ Handle rejection easily</div>
+                  <div className="bg-white/60 p-2 rounded">✓ Command respect instantly</div>
+                </div>
+              </div>
             </div>
-            <svg className="w-16 h-16 p-1 -mt-1 mb-2 text-blue-500" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fillRule="evenodd"><rect className="fill-current text-blue-600 opacity-20 dark:opacity-30" width="64" height="64" rx="32"/><path className="stroke-current text-blue-500 dark:text-blue-400" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z"/><path className="stroke-current text-blue-500 dark:text-blue-400" strokeWidth="2" strokeLinecap="square" d="M26 28h12M26 32h12M26 36h5"/></g></svg>
-            <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-gray-900 dark:text-white">Input Your Content</h4>
-            <p className="text-gray-600 dark:text-gray-400 text-center">Provide a topic, existing blog post, URL, or raw text. Our AI understands your core message.</p>
           </div>
 
-          {/* 2nd item */}
-          <div className="relative flex flex-col items-center p-6 bg-white dark:bg-gray-900 rounded-xl shadow-lg transition duration-300 ease-in-out hover:shadow-2xl">
-            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -mt-4">
-              <div className="flex items-center justify-center w-10 h-10 bg-blue-600 text-white rounded-full font-bold text-lg">2</div>
+          {/* Week 2 */}
+          <div className="relative flex items-center mb-16 md:flex-row-reverse">
+            <div className="absolute left-4 md:left-1/2 w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold transform md:-translate-x-4">2</div>
+            <div className="md:w-1/2 ml-16 md:ml-0 md:pl-16">
+              <div className="bg-yellow-50 border-2 border-yellow-200 rounded-2xl p-8">
+                <div className="flex items-center mb-4">
+                  <span className="text-3xl mr-3">🎯</span>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900">Week 2: Prospecting Mastery</h3>
+                    <p className="text-yellow-600 font-semibold">Fill Your Pipeline</p>
+                  </div>
+                </div>
+                <p className="text-gray-700 mb-4">
+                  Master advanced prospecting techniques that make qualified prospects <strong>chase YOU</strong>. Learn to identify buyers vs. tire-kickers in 30 seconds.
+                </p>
+                <div className="bg-white/60 p-4 rounded-lg">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-yellow-600">214%</div>
+                    <div className="text-sm text-gray-600">increase in qualified prospects</div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <svg className="w-16 h-16 p-1 -mt-1 mb-2 text-blue-500" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fillRule="evenodd"><rect className="fill-current text-blue-600 opacity-20 dark:opacity-30" width="64" height="64" rx="32"/><g strokeWidth="2"><path className="stroke-current text-blue-500 dark:text-blue-400" d="M32 37.714A5.714 5.714 0 0037.714 32H40v5.714a8 8 0 00-8-8V24"/><path className="stroke-current text-blue-500 dark:text-blue-400" d="M31.429 32h4.571M32 31.429v4.571"/><path className="stroke-current text-blue-500 dark:text-blue-400" d="M32 24.286A5.714 5.714 0 0026.286 30H24v-5.714a8 8 0 008 8V40"/><path className="stroke-current text-blue-500 dark:text-blue-400" d="M34.286 26.286H32v-2.286h2.286V24H32v10.286"/><path className="stroke-current text-blue-500 dark:text-blue-400" d="M29.714 37.714H32v2.286h-2.286V40H32V29.714"/></g></g></svg>
-            <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-gray-900 dark:text-white">AI Generates & Designs</h4>
-            <p className="text-gray-600 dark:text-gray-400 text-center">Convertify's AI crafts compelling content and applies professional design, delivering <strong>instant lead magnets</strong> like ebooks, guides, or checklists.</p>
           </div>
 
-          {/* 3rd item */}
-          <div className="relative flex flex-col items-center p-6 bg-white dark:bg-gray-900 rounded-xl shadow-lg transition duration-300 ease-in-out hover:shadow-2xl">
-            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -mt-4">
-              <div className="flex items-center justify-center w-10 h-10 bg-blue-600 text-white rounded-full font-bold text-lg">3</div>
+          {/* Week 3 */}
+          <div className="relative flex items-center mb-16">
+            <div className="absolute left-4 md:left-1/2 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold transform md:-translate-x-4">3</div>
+            <div className="md:w-1/2 ml-16 md:ml-0 md:pr-16">
+              <div className="bg-blue-50 border-2 border-blue-200 rounded-2xl p-8">
+                <div className="flex items-center mb-4">
+                  <span className="text-3xl mr-3">⚡</span>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900">Week 3: Closing Arsenal</h3>
+                    <p className="text-blue-600 font-semibold">Weaponize Your Conversations</p>
+                  </div>
+                </div>
+                <p className="text-gray-700 mb-4">
+                  Deploy 12 different psychological closing techniques. Turn objections into buying signals using <strong>Neuro-Linguistic Programming</strong>.
+                </p>
+                <div className="grid grid-cols-2 gap-3 text-sm">
+                  <div className="bg-white/60 p-2 rounded">🔥 Assumptive Close</div>
+                  <div className="bg-white/60 p-2 rounded">⏰ Urgency Close</div>
+                  <div className="bg-white/60 p-2 rounded">💎 Value Stack Close</div>
+                  <div className="bg-white/60 p-2 rounded">🚫 Take-Away Close</div>
+                </div>
+              </div>
             </div>
-            <svg className="w-16 h-16 p-1 -mt-1 mb-2 text-blue-500" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g fill="none" fillRule="evenodd"><rect className="fill-current text-blue-600 opacity-20 dark:opacity-30" width="64" height="64" rx="32"/><path className="stroke-current text-blue-500 dark:text-blue-400" strokeWidth="2" strokeLinecap="square" d="M34.516 39.111V24.889c0-.828.672-1.5 1.5-1.5h5.032c.828 0 1.5.672 1.5 1.5v14.222M22.95 39.111V24.889c0-.828.672-1.5 1.5-1.5H29.5c.828 0 1.5.672 1.5 1.5v14.222M18 39.111V24.889c0-.828.672-1.5 1.5-1.5h.032c.828 0 1.5.672 1.5 1.5v14.222"/></g></svg>
-            <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-gray-900 dark:text-white">Launch & Convert</h4>
-            <p className="text-gray-600 dark:text-gray-400 text-center">Download your ready-to-use lead magnet. Integrate with your marketing tools and start capturing high-quality leads.</p>
           </div>
 
+          {/* Week 4 */}
+          <div className="relative flex items-center mb-16 md:flex-row-reverse">
+            <div className="absolute left-4 md:left-1/2 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white font-bold transform md:-translate-x-4">4</div>
+            <div className="md:w-1/2 ml-16 md:ml-0 md:pl-16">
+              <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-8">
+                <div className="flex items-center mb-4">
+                  <span className="text-3xl mr-3">🏆</span>
+                  <div>
+                    <h3 className="text-2xl font-bold text-gray-900">Week 4: Elite Optimization</h3>
+                    <p className="text-green-600 font-semibold">Join the 1% Club</p>
+                  </div>
+                </div>
+                <p className="text-gray-700 mb-4">
+                  Fine-tune your approach for maximum results. Learn advanced negotiation tactics and <strong>premium pricing strategies</strong> that command respect.
+                </p>
+                <div className="bg-white/60 p-4 rounded-lg">
+                  <div className="flex justify-between items-center">
+                    <div className="text-center">
+                      <div className="text-lg font-bold text-green-600">$847K</div>
+                      <div className="text-xs text-gray-600">Avg annual income</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-lg font-bold text-green-600">Top 1%</div>
+                      <div className="text-xs text-gray-600">Performance ranking</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Results showcase */}
+        <div className="bg-gradient-to-r from-green-600 to-emerald-600 rounded-2xl p-8 text-white text-center">
+          <h3 className="text-3xl font-bold mb-4">Your 30-Day Transformation Results</h3>
+          <div className="grid md:grid-cols-4 gap-6 mb-6">
+            <div>
+              <div className="text-4xl font-bold">+347%</div>
+              <div className="text-green-100">Close Rate Increase</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold">$127K</div>
+              <div className="text-green-100">Average Revenue Boost</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold">92%</div>
+              <div className="text-green-100">Hit or Exceed Quota</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold">6.3x</div>
+              <div className="text-green-100">ROI on Training</div>
+            </div>
+          </div>
+          <p className="text-green-100 mb-6 max-w-2xl mx-auto">
+            These aren't theoretical results. This is what happens when you follow our systematic approach to sales mastery.
+          </p>
+          <button className="bg-white text-green-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-xl transform hover:scale-105 transition-all duration-200">
+            Start Your Transformation - $47/month
+          </button>
         </div>
       </div>
     </section>

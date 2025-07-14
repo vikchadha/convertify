@@ -1,47 +1,186 @@
-import Link from 'next/link'
-
 export default function UseCases() {
   return (
-    <section className="py-12 md:py-20 bg-white dark:bg-gray-900">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-          <h2 className="text-3xl md:text-4xl font-extrabold mb-4 text-gray-900 dark:text-white">Who is Convertify For?</h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400">Whether you're a marketer, content creator, or business owner, Convertify helps you create lead magnets that convert.</p>
+    <section className="py-20 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        {/* Section header */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
+            Real Success Stories From
+            <br />
+            <span className="text-green-600">Sales Professionals</span> Like You
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            See how Convertify transformed the careers of salespeople across different industries in just <strong>30 days</strong>.
+          </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {/* Item 1: Marketers */}
-          <Link href="/solutions/marketers" className="flex flex-col items-center text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 group">
-            <div className="mb-4">
-              <svg className="w-12 h-12 text-blue-600 dark:text-blue-500 group-hover:text-blue-700 transition-colors" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+        {/* Success stories */}
+        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+          
+          {/* Story 1: SaaS Sales */}
+          <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="flex items-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center text-white text-2xl mr-4">
+                💻
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900">SaaS Sales Rep</h3>
+                <p className="text-blue-600 font-semibold">From $60K to $180K/year</p>
+              </div>
             </div>
-            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">Marketing Teams</h4>
-            <p className="text-gray-600 dark:text-gray-400">
-              Scale your content marketing efforts, generate targeted lead magnets for different campaigns, and fill your sales funnel with qualified leads faster than ever before.
-            </p>
-          </Link>
+            
+            <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-6">
+              <p className="text-gray-700 italic">
+                "I was the worst performer on my team for 8 months straight. After Convertify's training, I closed 3 enterprise deals in my first month and became the #1 rep."
+              </p>
+              <div className="mt-3 flex items-center">
+                <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">DK</div>
+                <div>
+                  <div className="font-semibold text-gray-900">David Kim</div>
+                  <div className="text-sm text-gray-600">Enterprise SaaS, San Francisco</div>
+                </div>
+              </div>
+            </div>
 
-          {/* Item 2: Content Creators */}
-          <Link href="/solutions/content-creators" className="flex flex-col items-center text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 group">
-            <div className="mb-4">
-              <svg className="w-12 h-12 text-blue-600 dark:text-blue-500 group-hover:text-blue-700 transition-colors" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"></path></svg>
+            <div className="grid grid-cols-2 gap-4 text-center">
+              <div className="bg-gray-50 p-3 rounded-lg">
+                <div className="text-2xl font-bold text-blue-600">23→87%</div>
+                <div className="text-xs text-gray-600">Close Rate</div>
+              </div>
+              <div className="bg-gray-50 p-3 rounded-lg">
+                <div className="text-2xl font-bold text-green-600">+$120K</div>
+                <div className="text-xs text-gray-600">Income Increase</div>
+              </div>
             </div>
-            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">Content Creators & Bloggers</h4>
-            <p className="text-gray-600 dark:text-gray-400">
-              Repurpose your existing content into valuable ebooks and guides. Grow your email list and audience by offering premium resources without the extra work.
-            </p>
-          </Link>
+          </div>
 
-          {/* Item 3: Small Business Owners */}
-          <Link href="/solutions/business-owners" className="flex flex-col items-center text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 group">
-            <div className="mb-4">
-              <svg className="w-12 h-12 text-blue-600 dark:text-blue-500 group-hover:text-blue-700 transition-colors" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+          {/* Story 2: Real Estate */}
+          <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="flex items-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center text-white text-2xl mr-4">
+                🏠
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900">Real Estate Agent</h3>
+                <p className="text-green-600 font-semibold">From 12 to 47 homes/year</p>
+              </div>
             </div>
-            <h4 className="text-xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">Entrepreneurs & SMBs</h4>
-            <p className="text-gray-600 dark:text-gray-400">
-              Establish authority and attract your ideal customers even with limited resources. Convertify makes professional lead magnet creation accessible to everyone.
-            </p>
-          </Link>
+            
+            <div className="bg-green-50 border-l-4 border-green-500 p-4 mb-6">
+              <p className="text-gray-700 italic">
+                "I thought I knew how to sell until I learned the psychology behind buyer decisions. Now luxury clients seek ME out and pay full asking price."
+              </p>
+              <div className="mt-3 flex items-center">
+                <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">LR</div>
+                <div>
+                  <div className="font-semibold text-gray-900">Lisa Rodriguez</div>
+                  <div className="text-sm text-gray-600">Luxury Real Estate, Miami</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-2 gap-4 text-center">
+              <div className="bg-gray-50 p-3 rounded-lg">
+                <div className="text-2xl font-bold text-green-600">392%</div>
+                <div className="text-xs text-gray-600">Sales Increase</div>
+              </div>
+              <div className="bg-gray-50 p-3 rounded-lg">
+                <div className="text-2xl font-bold text-green-600">$2.1M</div>
+                <div className="text-xs text-gray-600">Added Revenue</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Story 3: Insurance */}
+          <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+            <div className="flex items-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center text-white text-2xl mr-4">
+                🛡️
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-gray-900">Insurance Advisor</h3>
+                <p className="text-purple-600 font-semibold">From struggling to top 5%</p>
+              </div>
+            </div>
+            
+            <div className="bg-purple-50 border-l-4 border-purple-500 p-4 mb-6">
+              <p className="text-gray-700 italic">
+                "I was about to quit sales until I found Convertify. The objection handling alone doubled my income. Now I'm in the company's President's Club."
+              </p>
+              <div className="mt-3 flex items-center">
+                <div className="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold text-sm mr-3">JT</div>
+                <div>
+                  <div className="font-semibold text-gray-900">James Thompson</div>
+                  <div className="text-sm text-gray-600">Life Insurance, Chicago</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-2 gap-4 text-center">
+              <div className="bg-gray-50 p-3 rounded-lg">
+                <div className="text-2xl font-bold text-purple-600">Top 5%</div>
+                <div className="text-xs text-gray-600">Nationwide Rank</div>
+              </div>
+              <div className="bg-gray-50 p-3 rounded-lg">
+                <div className="text-2xl font-bold text-purple-600">$340K</div>
+                <div className="text-xs text-gray-600">Annual Income</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Industry breakdown */}
+        <div className="bg-white rounded-2xl p-8 shadow-lg">
+          <h3 className="text-2xl font-bold text-gray-900 text-center mb-8">
+            Proven Results Across <span className="text-green-600">Every Industry</span>
+          </h3>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="text-center">
+              <div className="w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">💼</span>
+              </div>
+              <h4 className="font-bold text-gray-900 mb-2">B2B Software</h4>
+              <div className="text-sm text-gray-600 mb-2">Average Results:</div>
+              <div className="text-lg font-bold text-blue-600">+284% Revenue</div>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">🏥</span>
+              </div>
+              <h4 className="font-bold text-gray-900 mb-2">Healthcare</h4>
+              <div className="text-sm text-gray-600 mb-2">Average Results:</div>
+              <div className="text-lg font-bold text-green-600">+192% Close Rate</div>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">💰</span>
+              </div>
+              <h4 className="font-bold text-gray-900 mb-2">Financial Services</h4>
+              <div className="text-sm text-gray-600 mb-2">Average Results:</div>
+              <div className="text-lg font-bold text-purple-600">+156% Income</div>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-16 h-16 bg-orange-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">🏗️</span>
+              </div>
+              <h4 className="font-bold text-gray-900 mb-2">Manufacturing</h4>
+              <div className="text-sm text-gray-600 mb-2">Average Results:</div>
+              <div className="text-lg font-bold text-orange-600">+228% Deals</div>
+            </div>
+          </div>
+          
+          <div className="text-center mt-8 pt-6 border-t border-gray-200">
+            <p className="text-gray-600 mb-4">Ready to join them?</p>
+            <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-xl transform hover:scale-105 transition-all duration-200">
+              Start Your Transformation - $47/month
+            </button>
+            <p className="text-xs text-gray-500 mt-2">30-day money-back guarantee</p>
+          </div>
         </div>
       </div>
     </section>
