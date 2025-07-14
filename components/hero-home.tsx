@@ -21,60 +21,60 @@ export default function HeroHome() {
           {/* Hero content */}
           <div className="text-center max-w-4xl mx-auto" data-aos="fade-up">
             
-            {/* Urgency banner */}
-            <div className="inline-flex items-center px-6 py-3 bg-red-100 border border-red-200 rounded-full text-red-700 text-sm font-semibold mb-8">
-              <span className="animate-pulse mr-2">🔥</span>
-              WARNING: Master psychology now or watch others take what's yours
+            {/* Professional banner */}
+            <div className="inline-flex items-center px-6 py-3 bg-slate-100 border border-slate-200 rounded-full text-slate-700 text-sm font-medium mb-8">
+              <span className="text-amber-500 mr-2">●</span>
+              Join 25,000+ professionals mastering the psychology of influence
             </div>
             
             {/* Main headline - broader appeal */}
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-gray-900 mb-8 leading-tight">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-slate-900 mb-8 leading-tight">
               Every Conversation
               <br />
-              <span className="gradient-text">Is a Sale</span>
+              <span className="text-slate-700">Is a Sale</span>
               <br />
               Are You Winning?
             </h1>
             
             {/* Subheadline - broader definition */}
-            <p className="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-slate-600 mb-12 leading-relaxed max-w-3xl mx-auto">
               Whether you're closing deals, raising funds, landing jobs, getting buy-in, recruiting talent, or building partnerships - 
-              <strong className="text-gray-900">psychology determines who wins.</strong>
+              <span className="font-medium text-slate-800">psychology determines who wins.</span>
             </p>
 
             {/* Six areas of influence */}
-            <div className="bg-gradient-to-br from-gray-900 via-purple-900/20 to-blue-900/20 text-white rounded-2xl p-8 mb-12 max-w-4xl mx-auto backdrop-blur-sm border border-white/10">
-              <h3 className="text-xl font-bold mb-6 text-center">Master the Psychology of Persuasion in Every Arena:</h3>
+            <div className="bg-slate-50 border border-slate-200 rounded-2xl p-8 mb-12 max-w-4xl mx-auto">
+              <h3 className="text-lg font-semibold mb-6 text-center text-slate-800">Master the Psychology of Persuasion in Every Arena:</h3>
               <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center group hover:transform hover:scale-105 transition-all duration-200">
-                  <div className="text-3xl mb-2 icon-glow">💰</div>
-                  <div className="text-lg font-bold bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Close Deals</div>
-                  <div className="text-sm text-gray-300">3x your sales conversion</div>
+                <div className="text-center">
+                  <div className="text-2xl mb-2 text-slate-600">💰</div>
+                  <div className="text-base font-semibold text-slate-800">Close Deals</div>
+                  <div className="text-sm text-slate-600">3x your sales conversion</div>
                 </div>
-                <div className="text-center group hover:transform hover:scale-105 transition-all duration-200">
-                  <div className="text-3xl mb-2 icon-glow">🚀</div>
-                  <div className="text-lg font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Raise Funds</div>
-                  <div className="text-sm text-gray-300">Get VCs fighting to invest</div>
+                <div className="text-center">
+                  <div className="text-2xl mb-2 text-slate-600">🚀</div>
+                  <div className="text-base font-semibold text-slate-800">Raise Funds</div>
+                  <div className="text-sm text-slate-600">Get VCs fighting to invest</div>
                 </div>
-                <div className="text-center group hover:transform hover:scale-105 transition-all duration-200">
-                  <div className="text-3xl mb-2 icon-glow">💼</div>
-                  <div className="text-lg font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Land Jobs</div>
-                  <div className="text-sm text-gray-300">42% higher salary offers</div>
+                <div className="text-center">
+                  <div className="text-2xl mb-2 text-slate-600">💼</div>
+                  <div className="text-base font-semibold text-slate-800">Land Jobs</div>
+                  <div className="text-sm text-slate-600">42% higher salary offers</div>
                 </div>
-                <div className="text-center group hover:transform hover:scale-105 transition-all duration-200">
-                  <div className="text-3xl mb-2 icon-glow">🎯</div>
-                  <div className="text-lg font-bold bg-gradient-to-r from-orange-400 to-red-400 bg-clip-text text-transparent">Get Buy-In</div>
-                  <div className="text-sm text-gray-300">94% approval rate</div>
+                <div className="text-center">
+                  <div className="text-2xl mb-2 text-slate-600">🎯</div>
+                  <div className="text-base font-semibold text-slate-800">Get Buy-In</div>
+                  <div className="text-sm text-slate-600">94% approval rate</div>
                 </div>
-                <div className="text-center group hover:transform hover:scale-105 transition-all duration-200">
-                  <div className="text-3xl mb-2 icon-glow">👥</div>
-                  <div className="text-lg font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">Recruit Talent</div>
-                  <div className="text-sm text-gray-300">82% response rate</div>
+                <div className="text-center">
+                  <div className="text-2xl mb-2 text-slate-600">👥</div>
+                  <div className="text-base font-semibold text-slate-800">Recruit Talent</div>
+                  <div className="text-sm text-slate-600">82% response rate</div>
                 </div>
-                <div className="text-center group hover:transform hover:scale-105 transition-all duration-200">
-                  <div className="text-3xl mb-2 icon-glow">🤝</div>
-                  <div className="text-lg font-bold bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">Win Partners</div>
-                  <div className="text-sm text-gray-300">Close strategic deals</div>
+                <div className="text-center">
+                  <div className="text-2xl mb-2 text-slate-600">🤝</div>
+                  <div className="text-base font-semibold text-slate-800">Win Partners</div>
+                  <div className="text-sm text-slate-600">Close strategic deals</div>
                 </div>
               </div>
             </div>
@@ -82,9 +82,9 @@ export default function HeroHome() {
             {/* Before/After transformation */}
             <div className="grid md:grid-cols-2 gap-8 mb-12 max-w-4xl mx-auto">
               {/* Before */}
-              <div className="bg-red-50 border-2 border-red-200 rounded-xl p-6">
-                <div className="text-red-600 font-bold text-lg mb-4">❌ Without Psychology</div>
-                <ul className="text-left space-y-2 text-gray-700">
+              <div className="bg-slate-100 border border-slate-300 rounded-xl p-6">
+                <div className="text-slate-700 font-semibold text-lg mb-4">Without Psychology</div>
+                <ul className="text-left space-y-2 text-slate-600">
                   <li>• Watch others get what you deserve</li>
                   <li>• Struggle to influence decisions</li>
                   <li>• Get rejected despite being qualified</li>
@@ -94,9 +94,9 @@ export default function HeroHome() {
               </div>
               
               {/* After */}
-              <div className="bg-green-50 border-2 border-green-200 rounded-xl p-6">
-                <div className="text-green-600 font-bold text-lg mb-4">✅ With Psychology Mastery</div>
-                <ul className="text-left space-y-2 text-gray-700">
+              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
+                <div className="text-blue-700 font-semibold text-lg mb-4">With Psychology Mastery</div>
+                <ul className="text-left space-y-2 text-slate-700">
                   <li>• Get yes in every important conversation</li>
                   <li>• Control outcomes with influence</li>
                   <li>• Stand out from competition</li>
@@ -106,37 +106,37 @@ export default function HeroHome() {
               </div>
             </div>
 
-            {/* Strong CTA with scarcity */}
-            <div className="bg-gradient-to-r from-green-600 to-emerald-600 rounded-2xl p-8 text-white text-center mb-8">
-              <h3 className="text-2xl font-bold mb-4">Master the Psychology of Getting What You Want</h3>
-              <p className="text-green-100 mb-6">Join 25,000+ professionals winning in every conversation that matters</p>
+            {/* Professional CTA */}
+            <div className="bg-slate-800 rounded-2xl p-8 text-white text-center mb-8">
+              <h3 className="text-2xl font-semibold mb-4">Master the Psychology of Getting What You Want</h3>
+              <p className="text-slate-300 mb-6">Join 25,000+ professionals winning in every conversation that matters</p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-lg mx-auto">
-                <Link className="btn btn-professional text-white font-bold text-lg px-8 py-4 rounded-xl transform hover:scale-105 transition-all duration-200 w-full sm:w-auto" href="/signup">
+                <Link className="btn bg-white text-slate-800 hover:bg-slate-100 font-semibold text-lg px-8 py-4 rounded-lg transition-all duration-200 w-full sm:w-auto" href="/signup">
                   Get Instant Access - $47/month
                 </Link>
-                <div className="text-green-200 text-sm">
-                  <div className="font-semibold">⏰ Limited Time:</div>
+                <div className="text-slate-400 text-sm">
+                  <div className="font-medium">Limited Time:</div>
                   <div>Usually $197/month</div>
                 </div>
               </div>
               
-              <p className="text-xs text-green-200 mt-4">30-day money-back guarantee • Cancel anytime</p>
+              <p className="text-xs text-slate-400 mt-4">30-day money-back guarantee • Cancel anytime</p>
             </div>
 
-            {/* Risk reversal */}
-            <div className="flex items-center justify-center space-x-8 text-sm text-gray-500">
+            {/* Trust indicators */}
+            <div className="flex items-center justify-center space-x-8 text-sm text-slate-600">
               <div className="flex items-center">
-                <span className="text-green-500 mr-2">🛡️</span>
+                <span className="text-slate-400 mr-2">✓</span>
                 30-Day Guarantee
               </div>
               <div className="flex items-center">
-                <span className="text-blue-500 mr-2">⚡</span>
+                <span className="text-slate-400 mr-2">✓</span>
                 Instant Access
               </div>
               <div className="flex items-center">
-                <span className="text-purple-500 mr-2">👑</span>
-                VIP Support
+                <span className="text-slate-400 mr-2">✓</span>
+                Expert Support
               </div>
             </div>
           </div>
