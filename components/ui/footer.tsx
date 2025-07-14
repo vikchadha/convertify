@@ -29,7 +29,7 @@ export default function Footer() {
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-4">
             <div className="mb-4">
-              <Logo />
+              <Logo forceLightMode={true} />
             </div>
             <div className="text-slate-400 mb-6">
               <p className="mb-4">Convertify teaches the psychology of persuasion to professionals who need to influence, convince, and win in any conversation.</p>
