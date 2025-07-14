@@ -410,6 +410,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     },
+    // Phase 4: The Missing Link - Personality-Based Influence
+    {
+      url: `${baseUrl}/blog/personality-influence-matrix`,
+      lastModified: currentDate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.9,
+    },
   ]
 
   return staticRoutes
