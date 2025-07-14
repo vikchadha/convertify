@@ -22,6 +22,10 @@ const playfair = Playfair_Display({
 export const metadata = {
   title: 'Convertify | AI-Powered Lead Magnet Automation',
   description: 'Stop wasting time on manual lead magnet creation. Convertify uses AI to build high-converting ebooks, guides, and checklists in minutes. Start your free trial today!',
+  robots: 'index, follow',
+  alternates: {
+    canonical: 'https://convertify.com',
+  },
 }
 
 export default function RootLayout({
