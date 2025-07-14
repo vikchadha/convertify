@@ -130,7 +130,7 @@ export default function RecruitingScriptsPage() {
                 </p>
               </div>
               <p className="text-gray-700">
-                <strong>Psychology:</strong> Purpose > Perks for A-players
+                <strong>Psychology:</strong> Purpose &gt; Perks for A-players
               </p>
             </div>
 
