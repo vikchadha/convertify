@@ -18,12 +18,18 @@ export default function PostItem({ ...props }) {
         </header>
         <p className="text-lg text-slate-500 grow">{props.metadata.summary}</p>
         <footer className="flex items-center mt-4">
-          <a href="#0">
-            <Image className="rounded-full shrink-0 mr-3" src={props.metadata.authorImg} width={32} height={32} alt={props.metadata.author} />
-          </a>
+          {props.metadata.authorImg && (
+            <a href="#0">
+              <Image className="rounded-full shrink-0 mr-3" src={props.metadata.authorImg} width={32} height={32} alt={props.metadata.author || 'Author'} />
+            </a>
+          )}
           <div>
-            <a className="font-medium text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{props.metadata.author}</a>
-            <span className="text-slate-300"> · </span>
+            {props.metadata.author && (
+              <>
+                <a className="font-medium text-slate-800 hover:text-blue-600 transition duration-150 ease-in-out" href="#0">{props.metadata.author}</a>
+                <span className="text-slate-300"> · </span>
+              </>
+            )}
             <span className="text-slate-500"><PostDate dateString={props.metadata.publishedAt} /></span>
           </div>
         </footer>

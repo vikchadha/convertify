@@ -23,7 +23,10 @@ function parseFrontmatter(fileContent: string) {
     const [key, ...valueArr] = line.split(": ");
     let value = valueArr.join(": ").trim();
     value = value.replace(/^['"](.*)['"]$/, "$1"); // Remove quotes
-    metadata[key.trim() as keyof Metadata] = value;
+    // Only set the value if it's not empty
+    if (value) {
+      metadata[key.trim() as keyof Metadata] = value;
+    }
   });
 
   return { metadata: metadata as Metadata, content };

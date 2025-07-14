@@ -1,6 +1,49 @@
+'use client'
+
 import Link from 'next/link'
+import { useState, useEffect } from 'react'
 
 export default function HeroHome() {
+  const rotatingPhrases = [
+    { first: "prospects", second: "customers" },
+    { first: "conversations", second: "opportunities" },
+    { first: "resistance", second: "agreement" },
+    { first: "conflict", second: "collaboration" },
+    { first: "objections", second: "enthusiasm" },
+    { first: "interviews", second: "offers" },
+    { first: "pitches", second: "funding" },
+  ]
+
+  const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0)
+  const [displayText, setDisplayText] = useState('')
+  const [isTyping, setIsTyping] = useState(true)
+
+  const currentPhrase = rotatingPhrases[currentPhraseIndex]
+  const fullText = `${currentPhrase.first} into ${currentPhrase.second}`
+
+  useEffect(() => {
+    const typeSpeed = 120 // Professional but not rushed
+    const pauseDuration = 2500 // Enough time to absorb the transformation
+
+    if (isTyping && displayText.length < fullText.length) {
+      // Still typing
+      const timer = setTimeout(() => {
+        setDisplayText(fullText.substring(0, displayText.length + 1))
+      }, typeSpeed)
+      return () => clearTimeout(timer)
+    } else if (displayText === fullText) {
+      // Finished typing, pause then move to next phrase
+      const timer = setTimeout(() => {
+        setCurrentPhraseIndex((prev) => 
+          prev === rotatingPhrases.length - 1 ? 0 : prev + 1
+        )
+        setDisplayText('')
+        setIsTyping(true)
+      }, pauseDuration)
+      return () => clearTimeout(timer)
+    }
+  }, [displayText, fullText, isTyping, currentPhraseIndex])
+
   return (
     <section className="relative bg-gradient-to-br from-blue-600 via-purple-600 to-pink-600 overflow-hidden">
       {/* Dynamic animated background */}
@@ -33,19 +76,34 @@ export default function HeroHome() {
               Join 25,000+ professionals mastering the psychology of influence
             </div>
             
-            {/* Main headline - bold and dynamic */}
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-8 leading-tight drop-shadow-2xl">
-              Every Conversation
-              <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-500">Is a Sale</span>
-              <br />
-              <span className="text-4xl md:text-6xl lg:text-7xl">Are You Winning?</span>
+            {/* Main headline - bold and dynamic with typewriter effect */}
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 leading-tight drop-shadow-2xl">
+              <div className="mb-4">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-500">Converting</span>
+              </div>
+              <div className="h-[1.2em] flex items-center justify-center">
+                <span className="inline-flex items-baseline whitespace-nowrap text-center">
+                  {displayText.split(' ').map((word, index, array) => {
+                    if (word === 'into') {
+                      return <span key={index} className="mx-3">{word}</span>
+                    } else if (index === array.length - 1 && displayText.includes('into')) {
+                      // Last word after "into" gets green gradient
+                      return <span key={index} className="text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-green-500">{word}</span>
+                    } else if (index < array.length - 1) {
+                      return <span key={index}>{word}&nbsp;</span>
+                    } else {
+                      return <span key={index}>{word}</span>
+                    }
+                  })}
+                  <span className="inline-block w-1 h-[1em] bg-yellow-300 animate-pulse ml-1"></span>
+                </span>
+              </div>
             </h1>
             
-            {/* Subheadline - high energy */}
+            {/* Subheadline - collaborative tone */}
             <p className="text-xl md:text-2xl text-white mb-12 leading-relaxed max-w-3xl mx-auto font-medium drop-shadow-lg">
-              Whether you're closing deals, raising funds, landing jobs, getting buy-in, recruiting talent, or building partnerships - 
-              <span className="font-bold text-yellow-300 text-2xl md:text-3xl block mt-2">psychology determines who wins.</span>
+              Master the psychology behind every successful interaction.
+              <span className="font-bold text-yellow-300 text-2xl md:text-3xl block mt-2">Create win-win outcomes that transform relationships.</span>
             </p>
 
             {/* Six areas of influence - vibrant cards */}
@@ -88,32 +146,32 @@ export default function HeroHome() {
             {/* Before/After transformation - high contrast */}
             <div className="grid md:grid-cols-2 gap-8 mb-12 max-w-4xl mx-auto">
               {/* Before */}
-              <div className="bg-red-600 border-4 border-red-700 rounded-2xl p-8 transform rotate-[-2deg] hover:rotate-0 transition-transform shadow-2xl">
+              <div className="bg-orange-600 border-4 border-orange-700 rounded-2xl p-8 transform rotate-[-2deg] hover:rotate-0 transition-transform shadow-2xl">
                 <div className="text-white font-black text-2xl mb-6 flex items-center">
-                  <span className="text-4xl mr-3">❌</span>
-                  Without Psychology
+                  <span className="text-4xl mr-3">🤔</span>
+                  Without Psychology Skills
                 </div>
                 <ul className="text-left space-y-3 text-white text-lg font-semibold">
-                  <li>😔 Watch others get what you deserve</li>
-                  <li>😤 Struggle to influence decisions</li>
-                  <li>😭 Get rejected despite being qualified</li>
-                  <li>🔒 Stuck at the same level</li>
-                  <li>😰 Feel powerless in conversations</li>
+                  <li>😕 Miss opportunities to connect</li>
+                  <li>🤝 Struggle to find common ground</li>
+                  <li>💭 Conversations feel one-sided</li>
+                  <li>🔄 Same results despite effort</li>
+                  <li>😟 Uncertain how to improve</li>
                 </ul>
               </div>
               
               {/* After */}
               <div className="bg-green-600 border-4 border-green-700 rounded-2xl p-8 transform rotate-[2deg] hover:rotate-0 transition-transform shadow-2xl">
                 <div className="text-white font-black text-2xl mb-6 flex items-center">
-                  <span className="text-4xl mr-3">✅</span>
+                  <span className="text-4xl mr-3">✨</span>
                   With Psychology Mastery
                 </div>
                 <ul className="text-left space-y-3 text-white text-lg font-semibold">
-                  <li>🎯 Get yes in every important conversation</li>
-                  <li>💪 Control outcomes with influence</li>
-                  <li>⭐ Stand out from competition</li>
-                  <li>🚀 Accelerate your success 3x</li>
-                  <li>👑 People fight for YOUR time</li>
+                  <li>🤝 Build genuine connections easily</li>
+                  <li>💡 Create mutually beneficial outcomes</li>
+                  <li>🌟 Turn tension into collaboration</li>
+                  <li>📈 Achieve goals together</li>
+                  <li>🎯 Everyone feels heard and valued</li>
                 </ul>
               </div>
             </div>
@@ -122,9 +180,9 @@ export default function HeroHome() {
             <div className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 rounded-3xl p-1 mb-8 shadow-2xl animate-gradient-x">
               <div className="bg-black rounded-3xl p-12 text-white text-center">
                 <h3 className="text-4xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-orange-300">
-                  Master the Psychology of Getting What You Want
+                  Transform Every Interaction Into Mutual Success
                 </h3>
-                <p className="text-2xl mb-8 font-bold">Join 25,000+ professionals winning in every conversation that matters</p>
+                <p className="text-2xl mb-8 font-bold">Join 25,000+ professionals creating win-win outcomes in every conversation</p>
                 
                 <div className="flex flex-col items-center max-w-xl mx-auto">
                   <Link className="btn bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-orange-500 text-black font-black text-2xl px-12 py-6 rounded-full transition-all duration-200 transform hover:scale-110 shadow-2xl mb-6 w-full animate-bounce" href="/signup">
