@@ -65,7 +65,7 @@ export default function HeroHome() {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="pt-20 pb-16 md:pt-28 md:pb-20">
+        <div className="pt-28 pb-16 md:pt-32 md:pb-20" style={{ paddingTop: '120px' }}>
           
           {/* Hero content */}
           <div className="text-center max-w-4xl mx-auto" data-aos="fade-up">

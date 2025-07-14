@@ -11,7 +11,7 @@ import { TrendingUp, Award, Users, Star } from 'lucide-react'
 
 export default function SignIn() {
   return (
-    <>
+    <div className="flex min-h-screen pt-24">
       {/* Content */}
       <div className="w-full md:w-1/2">
 
@@ -19,11 +19,6 @@ export default function SignIn() {
 
           <div className="px-5 sm:px-6 py-8">
             <div className="w-full max-w-sm mx-auto">
-
-              {/* Site branding */}
-              <div className="mb-6">
-                <Logo />
-              </div>
 
               {/* Welcome message */}
               <div className="mb-8">
@@ -181,6 +176,6 @@ export default function SignIn() {
         </div>
 
       </div>
-    </>
+    </div>
   )
 }

@@ -1,5 +1,11 @@
 import Link from 'next/link';
 import { FileText, Download, BookOpen, Video, Mic, MessageSquare, Target, Users, ArrowRight, Zap, Clock, CheckCircle, Phone, DollarSign, Brain } from 'lucide-react';
+import ScriptTemplate from '@/components/icons/ScriptTemplate';
+import EmailPsychology from '@/components/icons/EmailPsychology';
+import AnalyticsChart from '@/components/icons/AnalyticsChart';
+import BrainTarget from '@/components/icons/BrainTarget';
+import ConversionFlow from '@/components/icons/ConversionFlow';
+import MindBridge from '@/components/icons/MindBridge';
 
 export const metadata = {
   title: 'Sales Resources | Free Scripts, Templates & Guides',
@@ -90,7 +96,7 @@ export default function ResourcesPage() {
             100+ Battle-Tested Resources
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tighter tracking-tighter mb-6 text-gray-900 dark:text-white">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl text-premium-display mb-6 text-gray-900 dark:text-white hover-text-glow">
             Your Complete <span className="bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">Sales Arsenal</span>
           </h1>
           
@@ -152,7 +158,7 @@ export default function ResourcesPage() {
           icon={MessageSquare}
         >
           <ResourceCard
-            icon={FileText}
+            icon={ScriptTemplate}
             title="50 Objection Handling Scripts"
             description="Turn every 'no' into a 'yes' with these psychology-based responses to the most common objections."
             type="Scripts"
@@ -209,7 +215,7 @@ export default function ResourcesPage() {
           icon={FileText}
         >
           <ResourceCard
-            icon={Target}
+            icon={EmailPsychology}
             title="Sales Email Templates"
             description="20+ proven email templates for prospecting, follow-ups, and closing. Includes A/B test results."
             type="Templates"
@@ -217,7 +223,7 @@ export default function ResourcesPage() {
           />
           
           <ResourceCard
-            icon={BookOpen}
+            icon={BrainTarget}
             title="Pitch Deck Psychology Guide"
             description="Structure your pitch to trigger investment decisions. Includes annotated examples."
             type="Guide"
@@ -226,7 +232,7 @@ export default function ResourcesPage() {
           />
           
           <ResourceCard
-            icon={FileText}
+            icon={ConversionFlow}
             title="Budget Approval Templates"
             description="Get internal buy-in fast with these proven templates for budget requests and business cases."
             type="Templates"
@@ -234,7 +240,7 @@ export default function ResourcesPage() {
           />
           
           <ResourceCard
-            icon={Target}
+            icon={AnalyticsChart}
             title="Sales Playbook Template"
             description="Build a winning sales playbook for your team. Includes process maps and training guides."
             type="Templates"
@@ -243,7 +249,7 @@ export default function ResourcesPage() {
           />
           
           <ResourceCard
-            icon={MessageSquare}
+            icon={MindBridge}
             title="LinkedIn Outreach Kit"
             description="Templates and sequences that get 5x response rates on LinkedIn. Includes connection requests."
             type="Templates"

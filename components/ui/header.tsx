@@ -10,7 +10,7 @@ export default function Header() {
   const headerRef = useRef<HTMLElement>(null)
 
   return (
-    <header ref={headerRef} className="absolute w-full z-30 bg-white/95 backdrop-blur-sm border-b border-gray-200 transition duration-300 ease-in-out">
+    <header ref={headerRef} className="fixed w-full z-30 bg-white/95 backdrop-blur-sm border-b border-gray-200 transition duration-300 ease-in-out">
       {/* Alert bar - more subtle */}
       <div className="bg-slate-800 text-white text-center py-2 text-sm">
         <span className="text-amber-400 mr-2">●</span>Limited time: Psychology training now only $47/month
@@ -79,6 +79,11 @@ export default function Header() {
                   <Link href="/success-stories/b2b" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">B2B Sales</Link>
                 </li>
               </Dropdown>
+              <li>
+                <Link href="/quiz" className="hover:text-slate-700 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out text-gray-800 font-medium">
+                  Quiz
+                </Link>
+              </li>
               <li>
                 <Link href="/pricing" className="hover:text-slate-700 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out text-gray-800 font-medium">Pricing</Link>
               </li>
