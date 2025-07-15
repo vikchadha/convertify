@@ -52,6 +52,13 @@ export default function Header() {
                 <li>
                   <Link href="/training/cold-calling" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Cold Calling</Link>
                 </li>
+                <li className="border-t border-gray-100 mt-2 pt-2">
+                  <Link href="/training/ai-coach" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">
+                    <span className="flex items-center">
+                      ✨ AI Coach <span className="ml-2 text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">NEW</span>
+                    </span>
+                  </Link>
+                </li>
               </Dropdown>
               <Dropdown title="Success Stories">
                 <li>

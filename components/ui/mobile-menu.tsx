@@ -97,6 +97,11 @@ export default function MobileMenu() {
             <li>
               <Link href="/blog" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Blog</Link>
             </li>
+            <li>
+              <Link href="/training/ai-coach" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>
+                ✨ AI Coach <span className="ml-2 text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">NEW</span>
+              </Link>
+            </li>
             <li className="py-2 my-2 border-t border-b border-gray-200">
               <Link href="/resources" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>📚 Resources</Link>
               <ul className="pl-4">

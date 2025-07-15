@@ -96,6 +96,38 @@ export default function TrainingPage() {
           </div>
         </div>
 
+        {/* AI Coach Banner */}
+        <div className="mb-16">
+          <Link href="/training/ai-coach" className="block">
+            <div className="relative bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 md:p-12 overflow-hidden">
+              <div className="absolute right-0 top-0 -translate-y-1/2 translate-x-1/4 -mr-24 -mt-24">
+                <svg className="w-96 h-96 fill-current text-white opacity-10" viewBox="0 0 384 384">
+                  <circle cx="192" cy="192" r="192" />
+                </svg>
+              </div>
+              <div className="relative z-10 text-center">
+                <span className="inline-flex items-center text-sm font-semibold py-1 px-3 bg-white/20 backdrop-blur-sm text-white rounded-full mb-4">
+                  <span className="flex items-center">
+                    ✨ NEW: AI-Powered Coaching
+                  </span>
+                </span>
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                  Practice with Your Personal AI Sales Coach
+                </h2>
+                <p className="text-xl text-white/90 mb-6 max-w-2xl mx-auto">
+                  Get real-time feedback on your sales conversations. Our AI coach adapts to your scenario and recommends the perfect psychological approach.
+                </p>
+                <div className="inline-flex items-center text-white font-semibold">
+                  Start AI Coaching Session
+                  <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </Link>
+        </div>
+
         {/* Core Sales Training */}
         <div className="mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
