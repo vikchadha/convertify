@@ -1,5 +1,7 @@
-export const metadata = {title: 'Objection Aikido: Turn Resistance Into Urgency | Sales Training',
-  description: 'Master the psychology of objection handling. Learn the "Aikido Method" that turns every objection into a reason to buy NOW. 340% close rate increase.',,
+export const metadata = {
+  title: 'Objection Aikido: Turn Resistance Into Urgency | Sales Training',
+  description: 'Master the psychology of objection handling. Learn the "Aikido Method" that turns every objection into a reason to buy NOW. 340% close rate increase',
+  
   alternates: {
     canonical: 'https://convertify.com/training/objection-handling',
   },

@@ -1,5 +1,7 @@
-export const metadata = {title: 'Enterprise Deal Master: B2B Sales Success Story | Convertify',
-  description: 'How Marcus Johnson went from struggling with complex B2B sales to closing $4.2M in enterprise deals using advanced sales psychology.',,
+export const metadata = {
+  title: 'Enterprise Deal Master: B2B Sales Success Story | Convertify',
+  description: 'How Marcus Johnson went from struggling with complex B2B sales to closing $4.2M in enterprise deals using advanced sales psychology',
+  
   alternates: {
     canonical: 'https://convertify.com/success-stories/b2b',
   },

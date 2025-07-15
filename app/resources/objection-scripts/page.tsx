@@ -1,5 +1,7 @@
-export const metadata = {title: '50+ Battle-Tested Objection Scripts | Free Sales Resource',
-  description: 'Master every sales objection with word-for-word scripts that convert skeptics into buyers. Based on psychology, proven by 25,000+ salespeople.',,
+export const metadata = {
+  title: '50+ Battle-Tested Objection Scripts | Free Sales Resource',
+  description: 'Master every sales objection with word-for-word scripts that convert skeptics into buyers. Based on psychology, proven by 25,000+ salespeople',
+  
   alternates: {
     canonical: 'https://convertify.com/resources/objection-scripts',
   },

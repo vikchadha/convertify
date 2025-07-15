@@ -1,5 +1,7 @@
-export const metadata = {title: 'Fundraising Psychology: Make VCs Fight to Invest | Sales Training',
-  description: 'Master the psychology of raising capital. Turn cold VCs into eager investors using proven psychological principles that get checks written.',,
+export const metadata = {
+  title: 'Fundraising Psychology: Make VCs Fight to Invest | Sales Training',
+  description: 'Master the psychology of raising capital. Turn cold VCs into eager investors using proven psychological principles that get checks written',
+  
   alternates: {
     canonical: 'https://convertify.com/training/fundraising-psychology',
   },

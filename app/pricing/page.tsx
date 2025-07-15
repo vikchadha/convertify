@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'next/link';
 
-export const metadata = {title: 'Pricing | Convertify Sales Training - 76% OFF Limited Time',
-  description: 'Transform your sales career for only $47/month (normally $197). Join 25,000+ sales professionals earning $127K+ more per year. 30-day guarantee.',,
+export const metadata = {
+  title: 'Pricing | Convertify Sales Training - 76% OFF Limited Time',
+  description: 'Transform your sales career for only $47/month (normally $197). Join 25,000+ sales professionals earning $127K+ more per year. 30-day guarantee.',
   alternates: {
     canonical: 'https://convertify.com/pricing',
   },

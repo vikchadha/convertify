@@ -1,5 +1,7 @@
-export const metadata = {title: 'From Zero Team to Dream Team in 90 Days | Recruiting Success Story',
-  description: 'How Alex Thompson used recruiting psychology to build a world-class engineering team from scratch, beating FAANG companies for top talent.',,
+export const metadata = {
+  title: 'From Zero Team to Dream Team in 90 Days | Recruiting Success Story',
+  description: 'How Alex Thompson used recruiting psychology to build a world-class engineering team from scratch, beating FAANG companies for top talent',
+  
   alternates: {
     canonical: 'https://convertify.com/success-stories/startup-recruiter',
   },

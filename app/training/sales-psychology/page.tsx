@@ -1,5 +1,7 @@
-export const metadata = {title: 'Sales Psychology: The Science of Persuasion | Master Training',
-  description: 'Master the 12 psychological triggers that make prospects buy. Understand decision-making psychology, cognitive biases, and influence principles.',,
+export const metadata = {
+  title: 'Sales Psychology: The Science of Persuasion | Master Training',
+  description: 'Master the 12 psychological triggers that make prospects buy. Understand decision-making psychology, cognitive biases, and influence principles',
+  
   alternates: {
     canonical: 'https://convertify.com/training/sales-psychology',
   },

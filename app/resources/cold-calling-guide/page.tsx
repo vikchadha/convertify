@@ -1,5 +1,7 @@
-export const metadata = {title: 'The 47-Second Cold Call System | Free Sales Training Guide',
-  description: 'Master the psychology of cold calling with scripts that get 37% connection rates. Turn cold calls into hot leads in 47 seconds.',,
+export const metadata = {
+  title: 'The 47-Second Cold Call System | Free Sales Training Guide',
+  description: 'Master the psychology of cold calling with scripts that get 37% connection rates. Turn cold calls into hot leads in 47 seconds',
+  
   alternates: {
     canonical: 'https://convertify.com/resources/cold-calling-guide',
   },

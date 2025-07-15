@@ -1,5 +1,7 @@
-export const metadata = {title: 'From Ignored Ideas to Chief Innovation Officer | Corporate Success Story',
-  description: 'How Rachel Martinez used internal influence psychology to get her ideas funded and promoted from analyst to Chief Innovation Officer in 3 years.',,
+export const metadata = {
+  title: 'From Ignored Ideas to Chief Innovation Officer | Corporate Success Story',
+  description: 'How Rachel Martinez used internal influence psychology to get her ideas funded and promoted from analyst to Chief Innovation Officer in 3 years',
+  
   alternates: {
     canonical: 'https://convertify.com/success-stories/corporate-innovator',
   },

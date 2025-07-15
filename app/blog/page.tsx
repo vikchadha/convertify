@@ -5,24 +5,25 @@ import PostDate from '@/components/post-date'
 import PostItem from '@/components/post-item'
 import CtaBox from '@/components/cta-box'
 
-export const metadata = {title: 'Sales Psychology Secrets: 347% Close Rate Increase Strategies',
+export const metadata = {
+  title: 'Sales Psychology Secrets: 347% Close Rate Increase Strategies',
   description: 'Discover the psychological triggers that make prospects say yes. From objection handling to value stacking - learn what top 1% performers know.',
   openGraph: {
     title: 'Sales Psychology Secrets That 10x Close Rates',
     description: 'Master the psychological triggers used by top 1% performers to earn $127K+ more per year.',
     url: 'https://convertify.com/blog',
+    siteName: 'Convertify Sales Training',
     images: [
       {
         url: 'https://convertify.com/images/blog-post-01.jpg',
         width: 1200,
         height: 630,
-        alt: 'Sales Psychology Blog',,
+        alt: 'Sales Psychology Blog',
+      },
+    ],
+  },
   alternates: {
     canonical: 'https://convertify.com/blog',
-  },
-},
-    ],
-    siteName: 'Convertify Sales Training',
   },
 }
 

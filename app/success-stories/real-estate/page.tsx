@@ -1,5 +1,7 @@
-export const metadata = {title: '392% Commission Increase: Real Estate Agent Success Story',
-  description: 'How Sarah Rodriguez used sales psychology to go from 6 homes/year to 47 homes/year and earn $420K in commissions.',,
+export const metadata = {
+  title: '392% Commission Increase: Real Estate Agent Success Story',
+  description: 'How Sarah Rodriguez used sales psychology to go from 6 homes/year to 47 homes/year and earn $420K in commissions',
+  
   alternates: {
     canonical: 'https://convertify.com/success-stories/real-estate',
   },

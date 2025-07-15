@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import { Star, TrendingUp, DollarSign, Users, Award, ArrowRight, CheckCircle, BarChart3 } from 'lucide-react';
 
-export const metadata = {title: 'Success Stories | Real Results from Real Sales Professionals',
-  description: 'Discover how sales professionals across industries have transformed their careers with our psychology-based training. Real stories, real results.',,
+export const metadata = {
+  title: 'Success Stories | Real Results from Real Sales Professionals',
+  description: 'Discover how sales professionals across industries have transformed their careers with our psychology-based training. Real stories, real results',
+  
   alternates: {
     canonical: 'https://convertify.com/success-stories',
   },

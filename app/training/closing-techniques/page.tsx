@@ -1,5 +1,7 @@
-export const metadata = {title: 'Closing Techniques: Psychology of the Perfect Close | Sales Training',
-  description: 'Master 17 proven closing techniques based on psychology. Learn when and how to close without being pushy. 94% price protection rate.',,
+export const metadata = {
+  title: 'Closing Techniques: Psychology of the Perfect Close | Sales Training',
+  description: 'Master 17 proven closing techniques based on psychology. Learn when and how to close without being pushy. 94% price protection rate',
+  
   alternates: {
     canonical: 'https://convertify.com/training/closing-techniques',
   },

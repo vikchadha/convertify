@@ -1,5 +1,7 @@
-export const metadata = {title: 'Internal Influence: Get Your Ideas Approved & Funded | Leadership Training',
-  description: 'Master the psychology of selling ideas up. Get executives to champion your initiatives, approve budgets, and fast-track your career using proven influence principles.',,
+export const metadata = {
+  title: 'Internal Influence: Get Your Ideas Approved & Funded | Leadership Training',
+  description: 'Master the psychology of selling ideas up. Get executives to champion your initiatives, approve budgets, and fast-track your career using proven influence principles',
+  
   alternates: {
     canonical: 'https://convertify.com/training/internal-influence',
   },

@@ -1,5 +1,7 @@
-export const metadata = {title: 'From 50 Rejections to $10M Series A: Founder Success Story',
-  description: 'How Emma Martinez used fundraising psychology to go from begging VCs to having them compete for her startup. Learn the exact system she used.',,
+export const metadata = {
+  title: 'From 50 Rejections to $10M Series A: Founder Success Story',
+  description: 'How Emma Martinez used fundraising psychology to go from begging VCs to having them compete for her startup. Learn the exact system she used',
+  
   alternates: {
     canonical: 'https://convertify.com/success-stories/startup-founder',
   },

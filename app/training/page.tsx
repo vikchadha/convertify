@@ -9,8 +9,10 @@ import PersuasionTarget from '@/components/icons/PersuasionTarget';
 import TrustHandshake from '@/components/icons/TrustHandshake';
 import InfluenceStyleQuiz from '@/components/InfluenceStyleQuiz';
 
-export const metadata = {title: 'Sales Psychology Training | Master the Art of Persuasion',
-  description: 'Transform your sales skills with science-backed psychological techniques. From objection handling to closing techniques, master every aspect of sales psychology.',,
+export const metadata = {
+  title: 'Sales Psychology Training | Master the Art of Persuasion',
+  description: 'Transform your sales skills with science-backed psychological techniques. From objection handling to closing techniques, master every aspect of sales psychology',
+  
   alternates: {
     canonical: 'https://convertify.com/training',
   },

@@ -372,7 +372,7 @@ P.S. I can only extend this pricing to [X] more companies this quarter, and I'd 
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-yellow-600 dark:text-yellow-400 mt-0.5" />
                   <p className="text-yellow-800 dark:text-yellow-200">
-                    <strong>Personalization > Everything:</strong> Always customize the template with specific details about their company, challenges, or recent events.
+                    <strong>Personalization &gt; Everything:</strong> Always customize the template with specific details about their company, challenges, or recent events.
                   </p>
                 </div>
                 
