@@ -1,6 +1,8 @@
-export const metadata = {
-  title: 'Interview Scripts That Get You Hired at 42% Higher Salaries | Free Download',
-  description: 'Get word-for-word psychological scripts that turn interviews into bidding wars. Proven answers, salary negotiation tactics, and multiple offer strategies.',
+export const metadata = {title: 'Interview Scripts That Get You Hired at 42% Higher Salaries | Free Download',
+  description: 'Get word-for-word psychological scripts that turn interviews into bidding wars. Proven answers, salary negotiation tactics, and multiple offer strategies.',,
+  alternates: {
+    canonical: 'https://convertify.com/resources/interview-scripts',
+  },
 }
 
 import React from 'react'

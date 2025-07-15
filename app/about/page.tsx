@@ -1,6 +1,9 @@
 export const metadata = {
   title: 'About | The Sales Psychology Behind 347% Close Rate Increases',
   description: 'Discover how former struggling salesperson became sales psychology expert, helping 25,000+ sales professionals earn $127K+ more per year.',
+  alternates: {
+    canonical: 'https://convertify.com/about',
+  },
 }
 
 import React from 'react'

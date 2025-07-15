@@ -1,6 +1,8 @@
-export const metadata = {
-  title: 'From Laid Off at 52 to $450K VP Role in 6 Weeks | Executive Success Story',
-  description: 'How Michael Chen used interview psychology to turn age discrimination into executive advantage and land a VP role with 60% salary increase.',
+export const metadata = {title: 'From Laid Off at 52 to $450K VP Role in 6 Weeks | Executive Success Story',
+  description: 'How Michael Chen used interview psychology to turn age discrimination into executive advantage and land a VP role with 60% salary increase.',,
+  alternates: {
+    canonical: 'https://convertify.com/success-stories/executive-job-search',
+  },
 }
 
 import React from 'react'

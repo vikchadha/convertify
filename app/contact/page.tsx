@@ -1,6 +1,8 @@
-export const metadata = {
-  title: 'Contact | Get Personal Access to Sales Psychology Expert',
-  description: 'Get direct access to the sales psychology expert who helped 25,000+ salespeople earn $127K+ more per year. Limited availability.',
+export const metadata = {title: 'Contact | Get Personal Access to Sales Psychology Expert',
+  description: 'Get direct access to the sales psychology expert who helped 25,000+ salespeople earn $127K+ more per year. Limited availability.',,
+  alternates: {
+    canonical: 'https://convertify.com/contact',
+  },
 }
 
 import React from 'react'

@@ -1,6 +1,8 @@
-export const metadata = {
-  title: 'Pitch Deck Psychology: Make VCs Fight to Invest | Free Templates',
-  description: 'Download the exact pitch deck psychology framework that helped startups raise $200M+. Psychological triggers, storytelling templates, and VC manipulation tactics.',
+export const metadata = {title: 'Pitch Deck Psychology: Make VCs Fight to Invest | Free Templates',
+  description: 'Download the exact pitch deck psychology framework that helped startups raise $200M+. Psychological triggers, storytelling templates, and VC manipulation tactics.',,
+  alternates: {
+    canonical: 'https://convertify.com/resources/pitch-deck-psychology',
+  },
 }
 
 import React from 'react'

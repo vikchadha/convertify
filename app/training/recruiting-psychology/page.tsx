@@ -1,6 +1,8 @@
-export const metadata = {
-  title: 'Recruiting Psychology: Make Top Talent Choose You | Hiring Training',
-  description: 'Master the psychology of recruiting A-players. Learn how to make top talent leave FAANG companies to join your team using proven psychological principles.',
+export const metadata = {title: 'Recruiting Psychology: Make Top Talent Choose You | Hiring Training',
+  description: 'Master the psychology of recruiting A-players. Learn how to make top talent leave FAANG companies to join your team using proven psychological principles.',,
+  alternates: {
+    canonical: 'https://convertify.com/training/recruiting-psychology',
+  },
 }
 
 import React from 'react'

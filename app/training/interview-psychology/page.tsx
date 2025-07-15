@@ -1,6 +1,8 @@
-export const metadata = {
-  title: 'Interview Psychology: Make Them Fight to Hire You | Career Training',
-  description: 'Master the psychology of interviewing. Turn nervous job interviews into bidding wars for your talent using proven psychological principles.',
+export const metadata = {title: 'Interview Psychology: Make Them Fight to Hire You | Career Training',
+  description: 'Master the psychology of interviewing. Turn nervous job interviews into bidding wars for your talent using proven psychological principles.',,
+  alternates: {
+    canonical: 'https://convertify.com/training/interview-psychology',
+  },
 }
 
 import React from 'react'

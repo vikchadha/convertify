@@ -1,8 +1,10 @@
 import React from 'react'
 
-export const metadata = {
-  title: 'Cookie Policy - Convertify',
-  description: 'Understand how Convertify uses cookies to improve your browsing experience.',
+export const metadata = {title: 'Cookie Policy - Convertify',
+  description: 'Understand how Convertify uses cookies to improve your browsing experience.',,
+  alternates: {
+    canonical: 'https://convertify.com/cookie-policy',
+  },
 }
 
 export default function CookiePolicy() {

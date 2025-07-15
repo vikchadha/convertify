@@ -1,8 +1,10 @@
 import React from 'react'
 
-export const metadata = {
-  title: 'Privacy Policy - Convertify',
-  description: 'Learn how Convertify collects, uses, and protects your data by reading our Privacy Policy.',
+export const metadata = {title: 'Privacy Policy - Convertify',
+  description: 'Learn how Convertify collects, uses, and protects your data by reading our Privacy Policy.',,
+  alternates: {
+    canonical: 'https://convertify.com/privacy-policy',
+  },
 }
 
 export default function PrivacyPolicy() {

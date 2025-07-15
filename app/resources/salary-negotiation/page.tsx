@@ -1,6 +1,8 @@
-export const metadata = {
-  title: 'Get Paid What You\'re Worth: Salary Negotiation Guide | Free Resource',
-  description: 'Psychology-based salary negotiation scripts that help sales professionals increase their income by 47% on average. Never leave money on the table again.',
+export const metadata = {title: 'Get Paid What You\'re Worth: Salary Negotiation Guide | Free Resource',
+  description: 'Psychology-based salary negotiation scripts that help sales professionals increase their income by 47% on average. Never leave money on the table again.',,
+  alternates: {
+    canonical: 'https://convertify.com/resources/salary-negotiation',
+  },
 }
 
 import React from 'react'

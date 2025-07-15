@@ -3,11 +3,31 @@ import Link from 'next/link';
 import { ArrowLeft, Calendar, Clock, User } from 'lucide-react';
 import { allBlogs } from 'contentlayer/generated';
 import BlogPostContent from './BlogPostContent';
+import { Metadata } from 'next';
 
 export async function generateStaticParams() {
   return allBlogs.map((post) => ({
     slug: post.slug,
   }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const post = allBlogs.find((p) => p.slug === slug);
+
+  if (!post) {
+    return {
+      title: 'Blog Post Not Found',
+    };
+  }
+
+  return {
+    title: post.title || 'Convertify Blog',
+    description: post.summary || 'Read our latest insights on sales psychology and conversion techniques.',
+    alternates: {
+      canonical: `https://convertify.com/blog/${slug}`,
+    },
+  };
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {

@@ -1,6 +1,8 @@
-export const metadata = {
-  title: 'Recruiting Scripts That Get 82% Response Rates | Free Templates',
-  description: 'Get the exact psychological scripts that make top talent leave FAANG to join YOUR team. Outreach templates, interview frameworks, and closing tactics.',
+export const metadata = {title: 'Recruiting Scripts That Get 82% Response Rates | Free Templates',
+  description: 'Get the exact psychological scripts that make top talent leave FAANG to join YOUR team. Outreach templates, interview frameworks, and closing tactics.',,
+  alternates: {
+    canonical: 'https://convertify.com/resources/recruiting-scripts',
+  },
 }
 
 import React from 'react'

@@ -1,6 +1,8 @@
-export const metadata = {
-  title: 'Top 5% Nationally: Insurance Agent Success Story | Convertify',
-  description: 'How David Thompson went from struggling insurance agent to top 5% nationally, increasing retention to 94% using sales psychology.',
+export const metadata = {title: 'Top 5% Nationally: Insurance Agent Success Story | Convertify',
+  description: 'How David Thompson went from struggling insurance agent to top 5% nationally, increasing retention to 94% using sales psychology.',,
+  alternates: {
+    canonical: 'https://convertify.com/success-stories/insurance',
+  },
 }
 
 import React from 'react'

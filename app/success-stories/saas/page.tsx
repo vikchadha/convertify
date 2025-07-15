@@ -1,6 +1,8 @@
-export const metadata = {
-  title: 'From $60K to $180K in 8 Months: SaaS Sales Success Story',
-  description: 'How Michael Chen used psychology-based sales techniques to triple his income and become the #1 sales rep in his SaaS company.',
+export const metadata = {title: 'From $60K to $180K in 8 Months: SaaS Sales Success Story',
+  description: 'How Michael Chen used psychology-based sales techniques to triple his income and become the #1 sales rep in his SaaS company.',,
+  alternates: {
+    canonical: 'https://convertify.com/success-stories/saas',
+  },
 }
 
 import React from 'react'

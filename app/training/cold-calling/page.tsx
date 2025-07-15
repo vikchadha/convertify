@@ -1,6 +1,8 @@
-export const metadata = {
-  title: 'Cold Calling Mastery: 37% Connection Rate System | Sales Training',
-  description: 'Master the psychology of cold calling. Get past gatekeepers, book qualified meetings, and turn cold prospects into hot leads with proven scripts.',
+export const metadata = {title: 'Cold Calling Mastery: 37% Connection Rate System | Sales Training',
+  description: 'Master the psychology of cold calling. Get past gatekeepers, book qualified meetings, and turn cold prospects into hot leads with proven scripts.',,
+  alternates: {
+    canonical: 'https://convertify.com/training/cold-calling',
+  },
 }
 
 import React from 'react'

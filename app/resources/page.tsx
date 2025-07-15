@@ -10,6 +10,9 @@ import MindBridge from '@/components/icons/MindBridge';
 export const metadata = {
   title: 'Sales Resources | Free Scripts, Templates & Guides',
   description: 'Access our library of proven sales scripts, templates, and psychological frameworks. Battle-tested resources used by 25,000+ top performers.',
+  alternates: {
+    canonical: 'https://convertify.com/resources',
+  },
 };
 
 interface ResourceCardProps {

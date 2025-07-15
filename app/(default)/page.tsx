@@ -1,6 +1,9 @@
 export const metadata = {
   title: 'Convertify | Master the Psychology of Persuasion in Every Conversation',
   description: 'Every conversation is a sale. Master the psychology to close deals, raise funds, land dream jobs, get buy-in, recruit talent, and win in life. Join 25,000+ using psychology to get what they want.',
+  alternates: {
+    canonical: 'https://convertify.com',
+  },
 }
 
 import Hero from '@/components/hero-home-new'

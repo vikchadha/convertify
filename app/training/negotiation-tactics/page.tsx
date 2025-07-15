@@ -1,6 +1,8 @@
-export const metadata = {
-  title: 'Master Negotiation Psychology | Win Every Deal',
-  description: 'Learn the psychological tactics that top negotiators use to get what they want. From salary negotiations to closing mega-deals, master the art of influence.',
+export const metadata = {title: 'Master Negotiation Psychology | Win Every Deal',
+  description: 'Learn the psychological tactics that top negotiators use to get what they want. From salary negotiations to closing mega-deals, master the art of influence.',,
+  alternates: {
+    canonical: 'https://convertify.com/training/negotiation-tactics',
+  },
 }
 
 import React from 'react'

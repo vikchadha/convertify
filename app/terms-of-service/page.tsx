@@ -1,8 +1,10 @@
 import React from 'react'
 
-export const metadata = {
-  title: 'Terms of Service - Convertify',
-  description: 'Read our Terms of Service to understand the rules and guidelines for using our platform.',
+export const metadata = {title: 'Terms of Service - Convertify',
+  description: 'Read our Terms of Service to understand the rules and guidelines for using our platform.',,
+  alternates: {
+    canonical: 'https://convertify.com/terms-of-service',
+  },
 }
 
 export default function TermsOfService() {

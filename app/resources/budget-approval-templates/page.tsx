@@ -1,6 +1,8 @@
-export const metadata = {
-  title: 'Budget Approval Templates: Get Any Project Funded | Free Download',
-  description: 'Get the psychological templates that get executives to approve budgets 94% of the time. Email scripts, presentation frameworks, and influence tactics.',
+export const metadata = {title: 'Budget Approval Templates: Get Any Project Funded | Free Download',
+  description: 'Get the psychological templates that get executives to approve budgets 94% of the time. Email scripts, presentation frameworks, and influence tactics.',,
+  alternates: {
+    canonical: 'https://convertify.com/resources/budget-approval-templates',
+  },
 }
 
 import React from 'react'
