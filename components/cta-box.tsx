@@ -15,14 +15,14 @@ export default function CtaBox() {
 
           {/* CTA content */}
           <div className="text-center lg:text-left lg:max-w-xl">
-            <h3 className="h3 font-playfair-display text-slate-100 mb-4">Ready to Turn Your Content Ideas Into <span className="text-emerald-500">Lead Magnets That Convert</span>?</h3>
-            <p className="text-lg text-slate-400 mb-8">Stop spending hours on manual lead magnet creation. With Convertify's AI, you can generate high-converting ebooks, guides, and checklists in minutes. Start capturing more leads today!</p>
+            <h3 className="h3 font-playfair-display text-slate-100 mb-4">Ready to Master the <span className="text-emerald-500">Psychology of Persuasion</span>?</h3>
+            <p className="text-lg text-slate-400 mb-8">Stop guessing what to say in sales conversations. With Convertify's psychology-based training, you'll learn proven techniques that top performers use to close deals, raise funds, and win in life.</p>
             <div className="mb-3">
               <a className="btn text-white bg-blue-600 hover:bg-blue-700 group" href="/signup">
-                Start Free Trial <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                Start Training Today <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </a>
             </div>
-            <div className="text-sm italic text-slate-500">No credit card required. Cancel anytime!</div>
+            <div className="text-sm italic text-slate-500">30-day money-back guarantee. Cancel anytime!</div>
           </div>
 
         </div>

@@ -48,7 +48,7 @@ export default function SalesPlaybookTemplatePage() {
       title: "Prospecting & Outreach",
       description: "How to find and engage prospects",
       components: [
-        "Lead generation strategies",
+        "Prospecting strategies",
         "Cold calling scripts and frameworks",
         "Email templates and sequences",
         "Social selling guidelines",

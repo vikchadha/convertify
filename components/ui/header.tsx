@@ -80,6 +80,11 @@ export default function Header() {
                 </li>
               </Dropdown>
               <li>
+                <Link href="/how-it-works" className="hover:text-slate-700 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out text-gray-800 font-medium">
+                  How It Works
+                </Link>
+              </li>
+              <li>
                 <Link href="/quiz" className="hover:text-slate-700 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out text-gray-800 font-medium">
                   Quiz
                 </Link>
@@ -88,6 +93,9 @@ export default function Header() {
                 <Link href="/pricing" className="hover:text-slate-700 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out text-gray-800 font-medium">Pricing</Link>
               </li>
               <Dropdown title="Resources">
+                <li>
+                  <Link href="/resources" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight border-b border-gray-100 mb-1 pb-3">📚 View All Resources</Link>
+                </li>
                 <li>
                   <Link href="/resources/pitch-deck-psychology" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Pitch Deck Templates</Link>
                 </li>

@@ -96,13 +96,13 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <footer className="mt-16 pt-8 border-t border-slate-200 dark:border-slate-700">
             <div className="text-center">
               <p className="text-slate-600 dark:text-slate-400 mb-4">
-                Ready to create your own high-converting lead magnets?
+                Ready to master the psychology of persuasion?
               </p>
               <Link 
                 href="/signup" 
                 className="inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-md transition duration-150 ease-in-out"
               >
-                Start Your Free Trial
+                Start Your Training Today
               </Link>
             </div>
           </footer>

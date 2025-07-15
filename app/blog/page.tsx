@@ -202,6 +202,17 @@ export default function Blog() {
                   <div className="mt-6 text-green-200">
                     <p>30-day guarantee • Personal coaching included • Cancel anytime</p>
                   </div>
+                  <div className="mt-8 border-t border-green-400/30 pt-6">
+                    <p className="text-green-100 mb-4 text-lg">Don't miss these essential guides:</p>
+                    <div className="flex flex-wrap justify-center gap-4">
+                      <Link href="/blog/sandler-method-explained" className="bg-white/20 hover:bg-white/30 text-green-100 px-4 py-2 rounded-lg transition-colors">
+                        Sandler Method Guide →
+                      </Link>
+                      <Link href="/blog/sales-methodologies-fundraising" className="bg-white/20 hover:bg-white/30 text-green-100 px-4 py-2 rounded-lg transition-colors">
+                        Fundraising Psychology →
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -51,6 +51,9 @@ export default function Footer() {
             <h6 className="text-white font-semibold mb-3">Training Programs</h6>
             <ul className="text-sm text-slate-400">
               <li className="mb-2">
+                <Link href="/how-it-works" className="hover:text-slate-200 transition duration-150 ease-in-out">How It Works</Link>
+              </li>
+              <li className="mb-2">
                 <Link href="/training/sales-psychology" className="hover:text-slate-200 transition duration-150 ease-in-out">Sales Psychology</Link>
               </li>
               <li className="mb-2">
@@ -120,7 +123,19 @@ export default function Footer() {
                 <Link href="/blog" className="hover:text-slate-200 transition duration-150 ease-in-out">Blog</Link>
               </li>
               <li className="mb-2">
+                <Link href="/faq" className="hover:text-slate-200 transition duration-150 ease-in-out">FAQ</Link>
+              </li>
+              <li className="mb-2">
                 <Link href="/privacy-policy" className="hover:text-slate-200 transition duration-150 ease-in-out">Privacy Policy</Link>
+              </li>
+              <li className="mb-2">
+                <Link href="/refund-policy" className="hover:text-slate-200 transition duration-150 ease-in-out">Refund Policy</Link>
+              </li>
+              <li className="mb-2">
+                <Link href="/security" className="hover:text-slate-200 transition duration-150 ease-in-out">Security</Link>
+              </li>
+              <li className="mb-2">
+                <Link href="/accessibility" className="hover:text-slate-200 transition duration-150 ease-in-out">Accessibility</Link>
               </li>
             </ul>
           </div>

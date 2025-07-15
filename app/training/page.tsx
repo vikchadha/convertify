@@ -278,6 +278,22 @@ export default function TrainingPage() {
               View Success Stories
             </Link>
           </div>
+          <div className="mt-8 text-center">
+            <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
+              Want to master specific techniques? Check out these advanced resources:
+            </p>
+            <div className="flex flex-wrap justify-center gap-4 text-sm">
+              <Link href="/training/negotiation-tactics" className="text-blue-600 dark:text-blue-400 hover:underline">
+                Negotiation Psychology →
+              </Link>
+              <Link href="/blog/ultimate-guide-sales-methodologies" className="text-blue-600 dark:text-blue-400 hover:underline">
+                Sales Methodologies Guide →
+              </Link>
+              <Link href="/success-stories/startup-recruiter" className="text-blue-600 dark:text-blue-400 hover:underline">
+                Recruiting Success Story →
+              </Link>
+            </div>
+          </div>
           <p className="text-sm text-gray-500 dark:text-gray-400 mt-6">
             30-day money-back guarantee • Cancel anytime
           </p>

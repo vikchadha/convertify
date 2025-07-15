@@ -10,8 +10,8 @@ export default function HeroBlog() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="h1 font-playfair-display text-gray-900 mb-4">The Convertify Blog: Grow Your Leads, Smarter</h1>
-            <p className="text-xl text-gray-700">Expert tips, strategies, and insights on lead generation, content marketing, conversion optimization, and using AI to grow your business.</p>
+            <h1 className="h1 font-playfair-display text-gray-900 mb-4">The Convertify Blog: Master Sales Psychology</h1>
+            <p className="text-xl text-gray-700">Expert insights on sales psychology, persuasion techniques, objection handling, and the science behind high-performance selling.</p>
           </div>
         </div>
       </div>

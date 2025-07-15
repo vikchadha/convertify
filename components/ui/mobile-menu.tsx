@@ -79,6 +79,11 @@ export default function MobileMenu() {
         >        
           <ul className="px-5 py-2">
             <li>
+              <Link href="/how-it-works" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>
+                How It Works
+              </Link>
+            </li>
+            <li>
               <Link href="/quiz" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>
                 Take Quiz
               </Link>
@@ -96,13 +101,16 @@ export default function MobileMenu() {
               <Link href="/wall-of-love" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Wall of Love</Link>
             </li>
             <li className="py-2 my-2 border-t border-b border-gray-200">
-              <span className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Resources</span>
+              <Link href="/resources" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>📚 Resources</Link>
               <ul className="pl-4">
                 <li>
-                  <Link href="/404" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>404</Link>
+                  <Link href="/resources/objection-scripts" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Objection Scripts</Link>
                 </li>
                 <li>
-                  <Link href="/support" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Support</Link>
+                  <Link href="/resources/cold-calling-guide" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Cold Calling Guide</Link>
+                </li>
+                <li>
+                  <Link href="/resources/email-templates" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Email Templates</Link>
                 </li>
               </ul>
             </li>

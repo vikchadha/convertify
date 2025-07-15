@@ -68,61 +68,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'yearly' as const,
       priority: 0.3,
     },
-    // Features pages
     {
-      url: `${baseUrl}/features`,
-      lastModified: currentDate,
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/features/ai-content-creation`,
+      url: `${baseUrl}/faq`,
       lastModified: currentDate,
       changeFrequency: 'monthly' as const,
       priority: 0.7,
     },
     {
-      url: `${baseUrl}/features/analytics`,
+      url: `${baseUrl}/refund-policy`,
       lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
+      changeFrequency: 'yearly' as const,
+      priority: 0.4,
     },
     {
-      url: `${baseUrl}/features/design-automation`,
+      url: `${baseUrl}/accessibility`,
       lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
+      changeFrequency: 'yearly' as const,
+      priority: 0.3,
     },
     {
-      url: `${baseUrl}/features/lead-magnet-generation`,
+      url: `${baseUrl}/security`,
       lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
-    },
-    // Solutions pages
-    {
-      url: `${baseUrl}/solutions`,
-      lastModified: currentDate,
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/solutions/business-owners`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/solutions/content-creators`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/solutions/marketers`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.7,
+      changeFrequency: 'yearly' as const,
+      priority: 0.4,
     },
     // Other important pages
     {
@@ -135,18 +103,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/how-it-works`,
       lastModified: currentDate,
       changeFrequency: 'monthly' as const,
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/integrations`,
-      lastModified: currentDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/templates`,
-      lastModified: currentDate,
-      changeFrequency: 'weekly' as const,
       priority: 0.7,
     },
     {

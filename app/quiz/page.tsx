@@ -3,6 +3,9 @@ import InfluenceStyleQuiz from '@/components/InfluenceStyleQuiz';
 export const metadata = {
   title: 'Influence Style Quiz | Discover Your Natural Persuasion Style',
   description: 'Take this 2-minute quiz to uncover your natural influence style and get personalized strategies to maximize your persuasive power.',
+  alternates: {
+    canonical: 'https://convertify.com/quiz',
+  },
 };
 
 export default function QuizPage() {
