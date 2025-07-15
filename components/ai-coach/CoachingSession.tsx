@@ -102,14 +102,14 @@ export default function CoachingSession() {
       {step === 1 ? (
         // Context Setup
         <div className="bg-white rounded-lg shadow-sm p-8">
-          <h2 className="h3 font-playfair-display mb-2">Let's Set Up Your Coaching Session</h2>
+          <h2 className="h3 font-playfair-display text-slate-800 mb-2">Let's Set Up Your Coaching Session</h2>
           <p className="text-slate-600 mb-8">
             Tell me about the conversation you want to practice. I'll recommend the best approach and help you master it.
           </p>
 
           <div className="space-y-6">
             <div>
-              <label className="block text-sm font-medium mb-2">What type of conversation?</label>
+              <label className="block text-sm font-medium text-slate-700 mb-2">What type of conversation?</label>
               <select 
                 className="form-select w-full"
                 value={context.scenario}
@@ -128,7 +128,7 @@ export default function CoachingSession() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium mb-2">Your role</label>
+              <label className="block text-sm font-medium text-slate-700 mb-2">Your role</label>
               <input 
                 type="text"
                 className="form-input w-full"
@@ -139,7 +139,7 @@ export default function CoachingSession() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium mb-2">Industry/Context</label>
+              <label className="block text-sm font-medium text-slate-700 mb-2">Industry/Context</label>
               <input 
                 type="text"
                 className="form-input w-full"
@@ -150,7 +150,7 @@ export default function CoachingSession() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium mb-2">Your goal for this conversation</label>
+              <label className="block text-sm font-medium text-slate-700 mb-2">Your goal for this conversation</label>
               <textarea 
                 className="form-textarea w-full"
                 rows={3}
@@ -161,7 +161,7 @@ export default function CoachingSession() {
             </div>
 
             <div>
-              <label className="block text-sm font-medium mb-2">Specific challenges or concerns</label>
+              <label className="block text-sm font-medium text-slate-700 mb-2">Specific challenges or concerns</label>
               <textarea 
                 className="form-textarea w-full"
                 rows={3}

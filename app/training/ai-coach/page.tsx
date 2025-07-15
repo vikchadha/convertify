@@ -20,10 +20,10 @@ export default function AICoachPage() {
                   NEW: AI-Powered Coaching
                 </span>
               </div>
-              <h1 className="h1 font-playfair-display mb-4">
+              <h1 className="h1 font-playfair-display text-slate-800 dark:text-slate-100 mb-4">
                 Your Personal AI Sales Coach
               </h1>
-              <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto">
+              <p className="text-xl text-slate-600 dark:text-slate-400 mb-8 max-w-3xl mx-auto">
                 Practice real conversations, get instant feedback, and master the perfect approach for every situation. Our AI coach adapts to your industry, role, and specific scenarios.
               </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
@@ -48,8 +48,8 @@ export default function AICoachPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="py-12 md:py-20">
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-              <h2 className="h2 font-playfair-display mb-4">How AI Coaching Works</h2>
-              <p className="text-xl text-slate-600">
+              <h2 className="h2 font-playfair-display text-slate-800 dark:text-slate-100 mb-4">How AI Coaching Works</h2>
+              <p className="text-xl text-slate-600 dark:text-slate-400">
                 Our AI analyzes your conversation context and recommends the perfect psychological approach
               </p>
             </div>
@@ -63,8 +63,8 @@ export default function AICoachPage() {
                       <MessageSquare className="w-6 h-6 text-blue-600" />
                     </div>
                   </div>
-                  <h3 className="h4 font-playfair-display mb-2">1. Describe Your Scenario</h3>
-                  <p className="text-slate-600">
+                  <h3 className="h4 font-playfair-display text-slate-800 dark:text-slate-100 mb-2">1. Describe Your Scenario</h3>
+                  <p className="text-slate-600 dark:text-slate-400">
                     Tell us about your conversation: Who are you talking to? What's the context? What's your goal?
                   </p>
                 </div>
@@ -76,8 +76,8 @@ export default function AICoachPage() {
                       <Brain className="w-6 h-6 text-green-600" />
                     </div>
                   </div>
-                  <h3 className="h4 font-playfair-display mb-2">2. Get Framework Recommendation</h3>
-                  <p className="text-slate-600">
+                  <h3 className="h4 font-playfair-display text-slate-800 dark:text-slate-100 mb-2">2. Get Framework Recommendation</h3>
+                  <p className="text-slate-600 dark:text-slate-400">
                     Our AI analyzes your situation and recommends the best approach: Challenger, Sandler, SPIN, or Consultative.
                   </p>
                 </div>
@@ -89,8 +89,8 @@ export default function AICoachPage() {
                       <Target className="w-6 h-6 text-purple-600" />
                     </div>
                   </div>
-                  <h3 className="h4 font-playfair-display mb-2">3. Practice & Get Feedback</h3>
-                  <p className="text-slate-600">
+                  <h3 className="h4 font-playfair-display text-slate-800 dark:text-slate-100 mb-2">3. Practice & Get Feedback</h3>
+                  <p className="text-slate-600 dark:text-slate-400">
                     Role-play the conversation and get real-time coaching on your approach, language, and psychology.
                   </p>
                 </div>
@@ -105,7 +105,7 @@ export default function AICoachPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="py-12 md:py-20">
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-              <h2 className="h2 font-playfair-display mb-4">Adaptive AI Coaching Features</h2>
+              <h2 className="h2 font-playfair-display text-slate-800 dark:text-slate-100 mb-4">Adaptive AI Coaching Features</h2>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 md:gap-12">
@@ -115,8 +115,8 @@ export default function AICoachPage() {
                   <Zap className="w-8 h-8 text-blue-600" />
                 </div>
                 <div>
-                  <h3 className="h4 mb-2">Context-Aware Framework Selection</h3>
-                  <p className="text-slate-600">
+                  <h3 className="h4 text-slate-800 dark:text-slate-100 mb-2">Context-Aware Framework Selection</h3>
+                  <p className="text-slate-600 dark:text-slate-400">
                     No more one-size-fits-all. Our AI selects the perfect sales methodology based on your specific situation, industry, and buyer personality.
                   </p>
                 </div>
@@ -128,8 +128,8 @@ export default function AICoachPage() {
                   <Users className="w-8 h-8 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="h4 mb-2">Personality-Based Adaptation</h3>
-                  <p className="text-slate-600">
+                  <h3 className="h4 text-slate-800 dark:text-slate-100 mb-2">Personality-Based Adaptation</h3>
+                  <p className="text-slate-600 dark:text-slate-400">
                     Learn to read personality types and adapt your approach. Practice with different buyer personas from analytical to expressive.
                   </p>
                 </div>
@@ -141,8 +141,8 @@ export default function AICoachPage() {
                   <MessageSquare className="w-8 h-8 text-purple-600" />
                 </div>
                 <div>
-                  <h3 className="h4 mb-2">Real-Time Conversation Analysis</h3>
-                  <p className="text-slate-600">
+                  <h3 className="h4 text-slate-800 dark:text-slate-100 mb-2">Real-Time Conversation Analysis</h3>
+                  <p className="text-slate-600 dark:text-slate-400">
                     Get instant feedback on your tone, pacing, question quality, and psychological triggers. Know exactly what to improve.
                   </p>
                 </div>
@@ -154,8 +154,8 @@ export default function AICoachPage() {
                   <BarChart3 className="w-8 h-8 text-amber-600" />
                 </div>
                 <div>
-                  <h3 className="h4 mb-2">Progress Tracking & Analytics</h3>
-                  <p className="text-slate-600">
+                  <h3 className="h4 text-slate-800 dark:text-slate-100 mb-2">Progress Tracking & Analytics</h3>
+                  <p className="text-slate-600 dark:text-slate-400">
                     Track your improvement over time. See which frameworks work best for you and where you need more practice.
                   </p>
                 </div>
@@ -170,8 +170,8 @@ export default function AICoachPage() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="py-12 md:py-20">
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-              <h2 className="h2 font-playfair-display mb-4">Practice Any Scenario</h2>
-              <p className="text-xl text-slate-600">
+              <h2 className="h2 font-playfair-display text-slate-800 dark:text-slate-100 mb-4">Practice Any Scenario</h2>
+              <p className="text-xl text-slate-600 dark:text-slate-400">
                 From cold calls to board presentations, practice the conversations that matter most
               </p>
             </div>
@@ -188,8 +188,8 @@ export default function AICoachPage() {
               ].map((scenario, index) => (
                 <div key={index} className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                   <div className="text-4xl mb-4">{scenario.icon}</div>
-                  <h3 className="h5 font-playfair-display mb-2">{scenario.title}</h3>
-                  <p className="text-slate-600 text-sm">{scenario.desc}</p>
+                  <h3 className="h5 font-playfair-display text-slate-800 dark:text-slate-100 mb-2">{scenario.title}</h3>
+                  <p className="text-slate-600 dark:text-slate-400 text-sm">{scenario.desc}</p>
                 </div>
               ))}
             </div>
