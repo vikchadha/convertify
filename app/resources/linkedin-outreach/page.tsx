@@ -189,12 +189,12 @@ Thanks!
             </div>
             
             <div className="flex gap-4">
-              <button 
-                className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors"
-                onClick={() => alert('Download functionality would be implemented here')}
+              <Link 
+                href="/signup"
+                className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors inline-block"
               >
                 Download All Templates
-              </button>
+              </Link>
             </div>
           </div>
         </div>

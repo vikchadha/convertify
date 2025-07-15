@@ -8,6 +8,7 @@ export const metadata = {
 
 import Link from 'next/link';
 import { ArrowLeft, Mail, Clock, Users, TrendingUp, Copy, Zap, CheckCircle } from 'lucide-react';
+import { CopyButton, CopyAllButton } from './EmailTemplateClient';
 
 export default function EmailTemplatesPage() {
   const emailTemplates = [
@@ -261,13 +262,7 @@ P.S. I can only extend this pricing to [X] more companies this quarter, and I'd 
             </div>
             
             <div className="flex gap-4">
-              <button 
-                className="bg-white text-purple-600 px-8 py-4 rounded-lg font-semibold hover:bg-purple-50 transition-colors inline-flex items-center gap-2"
-                onClick={() => alert('Copy functionality would be implemented here')}
-              >
-                <Copy className="w-5 h-5" />
-                Copy All Templates
-              </button>
+              <CopyAllButton className="bg-white text-purple-600 px-8 py-4 rounded-lg font-semibold hover:bg-purple-50 transition-colors inline-flex items-center gap-2" />
             </div>
           </div>
         </div>
@@ -346,13 +341,11 @@ P.S. I can only extend this pricing to [X] more companies this quarter, and I'd 
                           {template.template}
                         </div>
                         
-                        <button 
+                        <CopyButton 
+                          text={template.template}
                           className="mt-4 text-blue-600 dark:text-blue-400 font-semibold inline-flex items-center gap-2 hover:text-blue-700 dark:hover:text-blue-300"
-                          onClick={() => navigator.clipboard.writeText(template.template)}
-                        >
-                          <Copy className="w-4 h-4" />
-                          Copy Template
-                        </button>
+                          label="Copy Template"
+                        />
                       </div>
                     </div>
                   ))}
