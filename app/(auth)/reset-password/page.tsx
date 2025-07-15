@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Reset Password - Tidy',
-  description: 'Page description',
+  title: 'Reset Password - Convertify',
+  description: 'Reset your Convertify account password',
 }
 
 import Link from 'next/link'
