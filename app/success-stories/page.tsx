@@ -80,13 +80,13 @@ export default function SuccessStoriesPage() {
       
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Page header */}
-        <div className="max-w-4xl mx-auto text-center pb-12 md:pb-20">
+        <div className="max-w-4xl mx-auto text-center pb-12 md:pb-20 pt-20">
           <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-green-600 to-blue-600 rounded-full text-white text-sm font-bold mb-6 shadow-lg">
             <Award className="w-5 h-5 mr-2" />
             25,000+ Success Stories and Counting
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tighter tracking-tighter mb-6 text-gray-900 dark:text-white">
+          <h1 className="h1 font-playfair-display text-gray-900 dark:text-white mb-6">
             Real People. <span className="bg-gradient-to-r from-green-600 to-blue-600 text-transparent bg-clip-text">Real Results.</span>
           </h1>
           
@@ -105,7 +105,7 @@ export default function SuccessStoriesPage() {
 
         {/* Featured Success Stories */}
         <div className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
+          <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900 dark:text-white">
             Featured Success Stories
           </h2>
           
@@ -146,7 +146,7 @@ export default function SuccessStoriesPage() {
 
         {/* Industry Categories */}
         <div className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
+          <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900 dark:text-white">
             Success Stories by Industry
           </h2>
           
@@ -221,7 +221,7 @@ export default function SuccessStoriesPage() {
 
         {/* By The Numbers */}
         <div className="bg-gray-900 dark:bg-gray-800 rounded-2xl p-12 text-white mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+          <h2 className="h2 font-playfair-display text-center mb-12 text-white">
             Success By The Numbers
           </h2>
           
@@ -247,7 +247,7 @@ export default function SuccessStoriesPage() {
 
         {/* Recent Reviews */}
         <div className="mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
+          <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900 dark:text-white">
             Recent Student Reviews
           </h2>
           
@@ -328,7 +328,7 @@ export default function SuccessStoriesPage() {
 
         {/* CTA Section */}
         <div className="max-w-3xl mx-auto text-center bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/20 dark:to-blue-900/20 rounded-2xl p-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6">
+          <h2 className="h2 font-playfair-display text-gray-900 dark:text-white mb-6 text-center">
             Your Success Story Starts Today
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">

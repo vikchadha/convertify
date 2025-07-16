@@ -35,7 +35,7 @@ export default function SalaryNegotiationPage() {
                 FREE: Salary Negotiation Mastery
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 Stop Leaving
                 <br />
                 <span className="text-red-400">$47,000</span> on the Table
@@ -76,7 +76,7 @@ export default function SalaryNegotiationPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-red-600">Shocking Truth</span> About Sales Salaries
             </h2>
             
@@ -131,7 +131,7 @@ export default function SalaryNegotiationPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-green-600">5-Phase Psychology System</span> for 47% Increases
             </h2>
 
@@ -259,7 +259,7 @@ export default function SalaryNegotiationPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               <span className="text-blue-600">Copy-Paste</span> Negotiation Email Templates
             </h2>
 
@@ -318,7 +318,7 @@ export default function SalaryNegotiationPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               How to Handle <span className="text-red-600">Their Objections</span>
             </h2>
 
@@ -364,7 +364,7 @@ export default function SalaryNegotiationPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               <span className="text-purple-600">Negotiating Raises</span> at Your Current Job
             </h2>
 
@@ -433,7 +433,7 @@ export default function SalaryNegotiationPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               Real Results from <span className="text-green-600">Psychology-Based Negotiation</span>
             </h2>
 
@@ -494,7 +494,7 @@ export default function SalaryNegotiationPage() {
       {/* Download CTA Section */}
       <section className="bg-gradient-to-r from-green-600 to-green-700 py-16 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Stop Leaving Money on the Table
           </h2>
           <p className="text-2xl text-green-100 mb-8 max-w-3xl mx-auto">

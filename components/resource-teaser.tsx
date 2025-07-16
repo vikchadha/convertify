@@ -5,7 +5,7 @@ export default function ResourceTeaser() {
         
         {/* Section header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
+          <h2 className="h2 font-playfair-display text-gray-900 mb-6">
             Get <span className="text-green-600">Free Sales Intelligence</span>
             <br />
             Delivered Weekly
@@ -23,7 +23,7 @@ export default function ResourceTeaser() {
             <div className="w-16 h-16 bg-red-500 rounded-2xl flex items-center justify-center mb-6">
               <span className="text-3xl">🛡️</span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">27 Objection-Crushing Scripts</h3>
+            <h3 className="h3 font-playfair-display text-gray-900 mb-4">27 Objection-Crushing Scripts</h3>
             <p className="text-gray-700 mb-6">
               Word-for-word responses to every objection you'll ever hear. Turn "Let me think about it" into "Where do I sign?"
             </p>
@@ -46,7 +46,7 @@ export default function ResourceTeaser() {
             <div className="w-16 h-16 bg-blue-500 rounded-2xl flex items-center justify-center mb-6">
               <span className="text-3xl">📞</span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Cold Calling Mastery Guide</h3>
+            <h3 className="h3 font-playfair-display text-gray-900 mb-4">Cold Calling Mastery Guide</h3>
             <p className="text-gray-700 mb-6">
               The exact system that gets 37% connection rates and 23% meeting bookings from stone-cold prospects.
             </p>
@@ -69,7 +69,7 @@ export default function ResourceTeaser() {
             <div className="w-16 h-16 bg-green-500 rounded-2xl flex items-center justify-center mb-6">
               <span className="text-3xl">💰</span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Salary Negotiation Playbook</h3>
+            <h3 className="h3 font-playfair-display text-gray-900 mb-4">Salary Negotiation Playbook</h3>
             <p className="text-gray-700 mb-6">
               Negotiate your way to a $50K+ salary increase using these psychological leverage tactics that work every time.
             </p>

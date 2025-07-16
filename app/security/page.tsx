@@ -34,7 +34,7 @@ const securityFeatures = [
 
 export default function SecurityPage() {
   return (
-    <section className="relative bg-white dark:bg-gray-900 py-12 md:py-20">
+    <section className="relative bg-white dark:bg-gray-900 pt-32 pb-12 md:pt-40 md:pb-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Page header */}
         <div className="text-center pb-12 md:pb-16">

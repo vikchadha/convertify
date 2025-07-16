@@ -36,7 +36,7 @@ export default function FundraisingPsychologyPage() {
                 The Psychology of Raising Millions
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 Stop <span className="text-red-400">Begging</span> for Money
                 <br />
                 Make VCs <span className="text-green-400">Beg</span> to Invest
@@ -80,7 +80,7 @@ export default function FundraisingPsychologyPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-red-600">Brutal Truth</span> About Fundraising
             </h2>
             
@@ -139,7 +139,7 @@ export default function FundraisingPsychologyPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-purple-600">7 Psychological Triggers</span> That Get Checks Written
             </h2>
 
@@ -239,7 +239,7 @@ export default function FundraisingPsychologyPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-green-600">10-Slide Psychology</span> System
             </h2>
 
@@ -310,7 +310,7 @@ export default function FundraisingPsychologyPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               <span className="text-blue-600">Meeting Psychology:</span> Control the Room
             </h2>
 
@@ -375,7 +375,7 @@ export default function FundraisingPsychologyPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               <span className="text-purple-600">Term Sheet Psychology:</span> 2.4x Your Valuation
             </h2>
 
@@ -436,7 +436,7 @@ export default function FundraisingPsychologyPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               What Happens When You Master <span className="text-green-600">Fundraising Psychology</span>
             </h2>
 
@@ -493,7 +493,7 @@ export default function FundraisingPsychologyPage() {
       {/* Final CTA */}
       <section className="bg-gradient-to-r from-purple-600 to-purple-700 py-16 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Stop Begging. Start Choosing Your Investors.
           </h2>
           <p className="text-2xl text-purple-100 mb-8 max-w-3xl mx-auto">

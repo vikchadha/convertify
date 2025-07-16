@@ -35,7 +35,7 @@ export default function ObjectionScriptsPage() {
                 FREE: Objection Handling Scripts
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 <span className="text-red-400">Never Lose</span> to
                 <br />
                 "I Need to Think About It"
@@ -73,7 +73,7 @@ export default function ObjectionScriptsPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               Why Most Salespeople <span className="text-red-600">Crumble</span> at Objections
             </h2>
             
@@ -101,7 +101,7 @@ export default function ObjectionScriptsPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-green-600">Top 10 Objections</span> + Word-for-Word Scripts
             </h2>
 
@@ -236,7 +236,7 @@ export default function ObjectionScriptsPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               <span className="text-purple-600">Advanced Psychology</span> Techniques
             </h2>
 
@@ -295,7 +295,7 @@ export default function ObjectionScriptsPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               <span className="text-blue-600">Bonus:</span> Follow-Up Email Templates
             </h2>
 
@@ -339,7 +339,7 @@ export default function ObjectionScriptsPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               Real Results from <span className="text-green-600">These Scripts</span>
             </h2>
 
@@ -392,7 +392,7 @@ export default function ObjectionScriptsPage() {
       {/* Download CTA Section */}
       <section className="bg-gradient-to-r from-green-600 to-green-700 py-16 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Get All 50+ Objection Scripts FREE
           </h2>
           <p className="text-2xl text-green-100 mb-8 max-w-3xl mx-auto">

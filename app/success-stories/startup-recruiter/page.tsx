@@ -35,7 +35,7 @@ export default function StartupRecruiterPage() {
                 Recruiting Psychology Mastery
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 From <span className="text-red-400">Zero Engineers</span>
                 <br />
                 to <span className="text-green-400">Dream Team</span>
@@ -74,7 +74,7 @@ export default function StartupRecruiterPage() {
       {/* The Challenge */}
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <h2 className="text-4xl font-black text-center mb-12 text-gray-900">
+          <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
             The <span className="text-red-600">Impossible Mission</span>
           </h2>
 
@@ -110,7 +110,7 @@ export default function StartupRecruiterPage() {
       {/* The Discovery */}
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <h2 className="text-4xl font-black text-center mb-12 text-gray-900">
+          <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
             The <span className="text-indigo-600">Psychology Revolution</span>
           </h2>
 
@@ -148,7 +148,7 @@ export default function StartupRecruiterPage() {
       {/* The Psychology Tactics */}
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <h2 className="text-4xl font-black text-center mb-12 text-gray-900">
+          <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
             The <span className="text-green-600">Recruiting Psychology</span> Playbook
           </h2>
 
@@ -207,7 +207,7 @@ export default function StartupRecruiterPage() {
       {/* The Results */}
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <h2 className="text-4xl font-black text-center mb-12 text-gray-900">
+          <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
             <span className="text-green-600">90 Days Later:</span> Dream Team Assembled
           </h2>
 
@@ -261,7 +261,7 @@ export default function StartupRecruiterPage() {
       {/* The Team Today */}
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <h2 className="text-4xl font-black text-center mb-12 text-gray-900">
+          <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
             Where Are They Now?
           </h2>
 
@@ -294,7 +294,7 @@ export default function StartupRecruiterPage() {
       {/* The System */}
       <section className="bg-gradient-to-br from-gray-900 to-black text-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Build Your Dream Team Using Alex's Psychology
           </h2>
 

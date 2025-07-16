@@ -35,7 +35,7 @@ export default async function SignupPage({ searchParams }: SignupPageProps) {
                 FINAL WARNING: 7 Spots Remaining This Month
               </div>
               
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black text-gray-900 mb-8 leading-tight">
+              <h1 className="h1 font-playfair-display text-gray-900 mb-8">
                 You're <span className="text-green-600">60 Seconds Away</span>
                 <br />
                 From <span className="text-yellow-600">10x'ing Your Sales Results</span>
@@ -47,7 +47,7 @@ export default async function SignupPage({ searchParams }: SignupPageProps) {
               
               {/* Social proof counter */}
               <div className="bg-white rounded-2xl p-8 shadow-lg max-w-3xl mx-auto mb-12">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">🔥 Live Signup Counter</h3>
+                <h3 className="h3 font-playfair-display text-gray-900 mb-6">🔥 Live Signup Counter</h3>
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="text-center">
                     <div className="text-4xl font-bold text-green-600 mb-2">43</div>
@@ -70,7 +70,7 @@ export default async function SignupPage({ searchParams }: SignupPageProps) {
               {/* Left side - Signup form */}
               <div className="bg-white shadow-2xl rounded-2xl p-8 md:p-12 border-4 border-green-500">
                 <div className="text-center mb-8">
-                  <h2 className="text-3xl font-black text-gray-900 mb-4">
+                  <h2 className="h2 font-playfair-display text-gray-900 mb-4">
                     🚀 Secure Your Spot - <span className="text-green-600">$47/month</span>
                   </h2>
                   <div className="flex items-center justify-center space-x-4 mb-6">
@@ -197,7 +197,7 @@ export default async function SignupPage({ searchParams }: SignupPageProps) {
               {/* Right side - Value stack */}
               <div className="space-y-6">
                 <div className="bg-gradient-to-br from-gray-900 to-black text-white rounded-2xl p-8">
-                  <h3 className="text-3xl font-bold mb-6 text-center">💎 What You Get Today</h3>
+                  <h3 className="h2 font-playfair-display mb-6 text-center">💎 What You Get Today</h3>
                   
                   <div className="space-y-4 mb-8">
                     <div className="flex items-center justify-between p-4 bg-white/10 rounded-xl">

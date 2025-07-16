@@ -5,7 +5,7 @@ export default function FeaturesBlocks() {
         
         {/* Section header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
+          <h2 className="h2 font-playfair-display text-gray-900 mb-6">
             What You'll <span className="text-green-600">Master</span> in 30 Days
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -21,7 +21,7 @@ export default function FeaturesBlocks() {
             <div className="w-16 h-16 bg-red-500 rounded-2xl flex items-center justify-center mb-6">
               <span className="text-3xl">📞</span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-3">Cold Calling Mastery</h3>
+            <h3 className="h3 font-playfair-display text-gray-900 mb-3">Cold Calling Mastery</h3>
             <p className="text-gray-600 mb-4">
               Turn cold calls into hot leads using the "Hook-Story-Close" framework. Get past gatekeepers and book meetings with decision-makers who've never heard of you.
             </p>
@@ -37,7 +37,7 @@ export default function FeaturesBlocks() {
             <div className="w-16 h-16 bg-blue-500 rounded-2xl flex items-center justify-center mb-6">
               <span className="text-3xl">✉️</span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-3">Email Persuasion</h3>
+            <h3 className="h3 font-playfair-display text-gray-900 mb-3">Email Persuasion</h3>
             <p className="text-gray-600 mb-4">
               Write emails that get opened, read, and replied to. Master the psychological triggers that make executives respond within minutes.
             </p>
@@ -53,7 +53,7 @@ export default function FeaturesBlocks() {
             <div className="w-16 h-16 bg-purple-500 rounded-2xl flex items-center justify-center mb-6">
               <span className="text-3xl">⚡</span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-3">Negotiation Warfare</h3>
+            <h3 className="h3 font-playfair-display text-gray-900 mb-3">Negotiation Warfare</h3>
             <p className="text-gray-600 mb-4">
               Win every pricing negotiation using FBI-developed techniques. Learn to anchor high, handle lowball offers, and walk away with premium pricing.
             </p>
@@ -69,7 +69,7 @@ export default function FeaturesBlocks() {
             <div className="w-16 h-16 bg-green-500 rounded-2xl flex items-center justify-center mb-6">
               <span className="text-3xl">🎯</span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-3">Advanced Closing</h3>
+            <h3 className="h3 font-playfair-display text-gray-900 mb-3">Advanced Closing</h3>
             <p className="text-gray-600 mb-4">
               Master 12 different closing techniques including the "Assumptive Close," "Urgency Close," and the devastating "Take-Away Close."
             </p>
@@ -85,7 +85,7 @@ export default function FeaturesBlocks() {
             <div className="w-16 h-16 bg-indigo-500 rounded-2xl flex items-center justify-center mb-6">
               <span className="text-3xl">📱</span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-3">LinkedIn Domination</h3>
+            <h3 className="h3 font-playfair-display text-gray-900 mb-3">LinkedIn Domination</h3>
             <p className="text-gray-600 mb-4">
               Turn LinkedIn into your personal ATM. Build authority, attract prospects, and generate inbound leads while you sleep.
             </p>
@@ -101,7 +101,7 @@ export default function FeaturesBlocks() {
             <div className="w-16 h-16 bg-orange-500 rounded-2xl flex items-center justify-center mb-6">
               <span className="text-3xl">🧠</span>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-3">Buyer Psychology</h3>
+            <h3 className="h3 font-playfair-display text-gray-900 mb-3">Buyer Psychology</h3>
             <p className="text-gray-600 mb-4">
               Understand the 6 core psychological drivers that make people buy. Read prospects like a book and position your solution as the obvious choice.
             </p>

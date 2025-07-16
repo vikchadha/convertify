@@ -57,8 +57,8 @@ export default function FAQPage() {
     <section className="relative bg-gray-50 dark:bg-gray-900 py-12 md:py-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         {/* Page header */}
-        <div className="text-center pb-12 md:pb-20">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+        <div className="text-center pb-12 md:pb-20 pt-20">
+          <h1 className="h1 font-playfair-display text-gray-900 dark:text-white mb-6">
             Frequently Asked Questions
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
@@ -87,7 +87,7 @@ export default function FAQPage() {
 
         {/* Still have questions CTA */}
         <div className="mt-16 text-center bg-blue-50 dark:bg-blue-900/20 rounded-2xl p-8">
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="h2 font-playfair-display text-gray-900 dark:text-white mb-4">
             Still Have Questions?
           </h2>
           <p className="text-gray-600 dark:text-gray-400 mb-6">

@@ -36,7 +36,7 @@ export default function RecruitingPsychologyPage() {
                 The Psychology of Recruiting A-Players
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 Stop <span className="text-red-400">Chasing</span> Talent
                 <br />
                 Make Them <span className="text-green-400">Chase</span> You
@@ -83,7 +83,7 @@ export default function RecruitingPsychologyPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               Why <span className="text-red-600">Great Companies</span> Can't Hire Great People
             </h2>
             
@@ -142,7 +142,7 @@ export default function RecruitingPsychologyPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-indigo-600">7 Psychological Principles</span> of Magnetic Recruiting
             </h2>
 
@@ -242,7 +242,7 @@ export default function RecruitingPsychologyPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-green-600">82% Response Rate</span> Outreach System
             </h2>
 
@@ -307,7 +307,7 @@ export default function RecruitingPsychologyPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-purple-600">Reverse Interview</span> Method
             </h2>
 
@@ -365,7 +365,7 @@ export default function RecruitingPsychologyPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-green-600">Inevitable Yes</span> Closing System
             </h2>
 
@@ -418,7 +418,7 @@ export default function RecruitingPsychologyPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               What Happens When You Master <span className="text-indigo-600">Recruiting Psychology</span>
             </h2>
 
@@ -485,7 +485,7 @@ export default function RecruitingPsychologyPage() {
       {/* Final CTA */}
       <section className="bg-gradient-to-r from-indigo-600 to-indigo-700 py-16 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Stop Settling for B-Players
           </h2>
           <p className="text-2xl text-indigo-100 mb-8 max-w-3xl mx-auto">

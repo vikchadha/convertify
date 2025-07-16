@@ -115,7 +115,7 @@ export default function AICoachPage() {
                   <Zap className="w-8 h-8 text-blue-600" />
                 </div>
                 <div>
-                  <h3 className="h4 text-slate-800 dark:text-slate-100 mb-2">Context-Aware Framework Selection</h3>
+                  <h3 className="h4 font-playfair-display text-slate-800 dark:text-slate-100 mb-2">Context-Aware Framework Selection</h3>
                   <p className="text-slate-600 dark:text-slate-400">
                     No more one-size-fits-all. Our AI selects the perfect sales methodology based on your specific situation, industry, and buyer personality.
                   </p>
@@ -128,7 +128,7 @@ export default function AICoachPage() {
                   <Users className="w-8 h-8 text-green-600" />
                 </div>
                 <div>
-                  <h3 className="h4 text-slate-800 dark:text-slate-100 mb-2">Personality-Based Adaptation</h3>
+                  <h3 className="h4 font-playfair-display text-slate-800 dark:text-slate-100 mb-2">Personality-Based Adaptation</h3>
                   <p className="text-slate-600 dark:text-slate-400">
                     Learn to read personality types and adapt your approach. Practice with different buyer personas from analytical to expressive.
                   </p>
@@ -141,7 +141,7 @@ export default function AICoachPage() {
                   <MessageSquare className="w-8 h-8 text-purple-600" />
                 </div>
                 <div>
-                  <h3 className="h4 text-slate-800 dark:text-slate-100 mb-2">Real-Time Conversation Analysis</h3>
+                  <h3 className="h4 font-playfair-display text-slate-800 dark:text-slate-100 mb-2">Real-Time Conversation Analysis</h3>
                   <p className="text-slate-600 dark:text-slate-400">
                     Get instant feedback on your tone, pacing, question quality, and psychological triggers. Know exactly what to improve.
                   </p>
@@ -154,7 +154,7 @@ export default function AICoachPage() {
                   <BarChart3 className="w-8 h-8 text-amber-600" />
                 </div>
                 <div>
-                  <h3 className="h4 text-slate-800 dark:text-slate-100 mb-2">Progress Tracking & Analytics</h3>
+                  <h3 className="h4 font-playfair-display text-slate-800 dark:text-slate-100 mb-2">Progress Tracking & Analytics</h3>
                   <p className="text-slate-600 dark:text-slate-400">
                     Track your improvement over time. See which frameworks work best for you and where you need more practice.
                   </p>

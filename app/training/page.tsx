@@ -66,7 +66,7 @@ export default function TrainingPage() {
             Trusted by 25,000+ Sales Professionals
           </div>
           
-          <h1 className="heading-xl mb-6 text-gray-900 dark:text-white">
+          <h1 className="h1 font-playfair-display text-gray-900 dark:text-white mb-6">
             Master the <span className="text-primary-gradient">Psychology of Sales</span>
           </h1>
           

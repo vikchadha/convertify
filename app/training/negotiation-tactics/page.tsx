@@ -36,7 +36,7 @@ export default function NegotiationTacticsPage() {
                 The Psychology of Getting YES
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 Never Leave <span className="text-orange-400">Money on the Table</span>
                 <br />
                 <span className="text-green-400">Ever Again</span>
@@ -85,7 +85,7 @@ export default function NegotiationTacticsPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               Why Most People <span className="text-red-600">Fail</span> at Negotiation
             </h2>
             
@@ -137,7 +137,7 @@ export default function NegotiationTacticsPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-orange-600">"Psychological Leverage"</span> System
             </h2>
 
@@ -217,7 +217,7 @@ export default function NegotiationTacticsPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               <span className="text-blue-600">Master Every</span> Negotiation Scenario
             </h2>
 
@@ -330,7 +330,7 @@ export default function NegotiationTacticsPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               Life-Changing <span className="text-green-600">Results</span> Our Students Get
             </h2>
 
@@ -397,7 +397,7 @@ export default function NegotiationTacticsPage() {
       {/* Bonus Section */}
       <section className="bg-gradient-to-r from-purple-600 to-blue-600 py-16 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             🎁 Exclusive Bonuses (Worth $2,400)
           </h2>
           
@@ -436,7 +436,7 @@ export default function NegotiationTacticsPage() {
       {/* Final CTA */}
       <section className="bg-gradient-to-r from-orange-600 to-red-600 py-16 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Every Day You Wait Costs You Money
           </h2>
           <p className="text-2xl text-orange-100 mb-8 max-w-3xl mx-auto">

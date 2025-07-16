@@ -36,7 +36,7 @@ export default function SaaSSalesSuccessPage() {
                 SaaS Sales Success Story
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 From <span className="text-red-400">$60K</span> to
                 <br />
                 <span className="text-green-400">$180K</span> in 8 Months
@@ -75,7 +75,7 @@ export default function SaaSSalesSuccessPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               The <span className="text-red-600">Dark Days</span> of Missing Quota
             </h2>
             
@@ -118,7 +118,7 @@ export default function SaaSSalesSuccessPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               The <span className="text-blue-600">Discovery</span> That Changed Everything
             </h2>
 
@@ -167,7 +167,7 @@ export default function SaaSSalesSuccessPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               The <span className="text-green-600">Shocking Results</span>
             </h2>
 
@@ -269,7 +269,7 @@ export default function SaaSSalesSuccessPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               The <span className="text-purple-600">Exact Techniques</span> I Used
             </h2>
 
@@ -309,7 +309,7 @@ export default function SaaSSalesSuccessPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               How My <span className="text-green-600">Life Changed</span>
             </h2>
 
@@ -351,7 +351,7 @@ export default function SaaSSalesSuccessPage() {
       {/* Final CTA */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-700 py-16 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Ready to Write Your Success Story?
           </h2>
           <p className="text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">

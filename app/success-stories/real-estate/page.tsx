@@ -36,7 +36,7 @@ export default function RealEstateSuccessPage() {
                 Real Estate Success Story
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 From <span className="text-red-400">6 Sales</span> to
                 <br />
                 <span className="text-green-400">47 Sales</span> Per Year
@@ -75,7 +75,7 @@ export default function RealEstateSuccessPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               The <span className="text-red-600">Harsh Reality</span> of Real Estate
             </h2>
             
@@ -118,7 +118,7 @@ export default function RealEstateSuccessPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               The <span className="text-blue-600">Game-Changing</span> Realization
             </h2>
 
@@ -168,7 +168,7 @@ export default function RealEstateSuccessPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               The <span className="text-purple-600">Psychology Techniques</span> That 10x'd My Business
             </h2>
 
@@ -217,7 +217,7 @@ export default function RealEstateSuccessPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               My <span className="text-green-600">12-Month Transformation</span>
             </h2>
 
@@ -307,7 +307,7 @@ export default function RealEstateSuccessPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               What <span className="text-green-600">Success</span> Really Looks Like
             </h2>
 
@@ -355,7 +355,7 @@ export default function RealEstateSuccessPage() {
       {/* Final CTA */}
       <section className="bg-gradient-to-r from-green-600 to-green-700 py-16 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Your 392% Increase Starts Today
           </h2>
           <p className="text-2xl text-green-100 mb-8 max-w-3xl mx-auto">

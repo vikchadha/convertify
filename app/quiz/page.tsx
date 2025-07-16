@@ -13,8 +13,8 @@ export default function QuizPage() {
     <section className="relative bg-white dark:bg-gray-900 section-padding">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         {/* Page header */}
-        <div className="text-center mb-12">
-          <h1 className="heading-xl mb-6 text-gray-900 dark:text-white">
+        <div className="text-center mb-12 pt-20">
+          <h1 className="h1 font-playfair-display mb-6 text-gray-900 dark:text-white">
             Discover Your <span className="text-primary-gradient">Influence Style</span>
           </h1>
           <p className="body-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">

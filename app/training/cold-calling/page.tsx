@@ -36,7 +36,7 @@ export default function ColdCallingPage() {
                 Cold Calling Revolution
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 Turn <span className="text-red-400">Cold Calls</span> Into
                 <br />
                 <span className="text-green-400">Hot Leads</span> in 47 Seconds
@@ -80,7 +80,7 @@ export default function ColdCallingPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               Why Most Salespeople <span className="text-red-600">Hate</span> Cold Calling
             </h2>
             
@@ -152,7 +152,7 @@ export default function ColdCallingPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-blue-600">"47-Second"</span> Cold Call System
             </h2>
 
@@ -227,7 +227,7 @@ export default function ColdCallingPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               <span className="text-purple-600">Gatekeeper Aikido:</span> 83% Bypass Rate
             </h2>
 
@@ -285,7 +285,7 @@ export default function ColdCallingPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               <span className="text-green-600">Industry-Specific</span> Cold Call Scripts
             </h2>
 
@@ -347,7 +347,7 @@ export default function ColdCallingPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               What Happens When You Master <span className="text-blue-600">Cold Calling Psychology</span>
             </h2>
 
@@ -404,7 +404,7 @@ export default function ColdCallingPage() {
       {/* Final CTA */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-700 py-16 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Stop Dreading Cold Calls
           </h2>
           <p className="text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">

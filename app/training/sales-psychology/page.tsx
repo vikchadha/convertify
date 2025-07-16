@@ -36,7 +36,7 @@ export default function SalesPsychologyPage() {
                 The Science of Persuasion
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 Master the <span className="text-purple-400">Psychology</span>
                 <br />
                 That Makes <span className="text-green-400">Prospects Buy</span>
@@ -80,7 +80,7 @@ export default function SalesPsychologyPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-red-600">Uncomfortable</span> Truth About Sales
             </h2>
             
@@ -139,7 +139,7 @@ export default function SalesPsychologyPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-purple-600">12 Psychological Triggers</span> That Control Buying
             </h2>
 
@@ -257,7 +257,7 @@ export default function SalesPsychologyPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-blue-600">Science</span> of Decision Making
             </h2>
 
@@ -325,7 +325,7 @@ export default function SalesPsychologyPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-green-600">P.S.Y.C.H.O.</span> Sales Framework
             </h2>
 
@@ -372,7 +372,7 @@ export default function SalesPsychologyPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               What Happens When You Master <span className="text-purple-600">Sales Psychology</span>
             </h2>
 
@@ -429,7 +429,7 @@ export default function SalesPsychologyPage() {
       {/* Final CTA */}
       <section className="bg-gradient-to-r from-purple-600 to-purple-700 py-16 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Stop Guessing What Makes People Buy
           </h2>
           <p className="text-2xl text-purple-100 mb-8 max-w-3xl mx-auto">

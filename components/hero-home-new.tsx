@@ -83,7 +83,7 @@ export default function HeroHome() {
             </div>
             
             {/* Main headline with typewriter effect */}
-            <h1 className="heading-xl text-white mb-6">
+            <h1 className="h1 font-playfair-display text-white mb-6">
               <div className="mb-4">
                 <span className="text-primary-gradient">Converting</span>
               </div>
@@ -113,7 +113,7 @@ export default function HeroHome() {
 
             {/* Six areas grid */}
             <div className="card-base p-8 mb-12 max-w-4xl mx-auto">
-              <h3 className="heading-md mb-8 text-center text-gray-900 dark:text-white">Master the Psychology of Persuasion in Every Arena:</h3>
+              <h3 className="h3 font-playfair-display mb-8 text-center text-gray-900 dark:text-white">Master the Psychology of Persuasion in Every Arena:</h3>
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="bg-white dark:bg-gray-700 rounded-lg p-6 text-center hover:shadow-md transition-shadow border border-gray-200 dark:border-gray-600">
                   <div className="icon-container mb-3 mx-auto w-12 h-12">

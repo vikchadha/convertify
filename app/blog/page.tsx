@@ -69,7 +69,7 @@ export default function Blog() {
                 Sales Psychology Weekly - 47K+ Subscribers
               </div>
               
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 The <span className="text-red-400">Psychology Secrets</span>
                 <br />
                 That Make Prospects
@@ -147,7 +147,7 @@ export default function Blog() {
                 {/* Latest Sales Psychology Articles */}
                 {latestPosts.length > 0 && (
                   <div>
-                    <h2 className="text-4xl font-black text-gray-900 text-center md:text-left mb-8">
+                    <h2 className="h2 font-playfair-display text-gray-900 text-center md:text-left mb-8">
                       🧠 Latest <span className="text-green-600">Psychology Secrets</span>
                     </h2>
                     <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
@@ -161,7 +161,7 @@ export default function Blog() {
                 {/* Popular Sales Techniques */}
                 {popularPosts.length > 0 && (
                   <div>
-                    <h2 className="text-4xl font-black text-gray-900 text-center md:text-left mb-8">
+                    <h2 className="h2 font-playfair-display text-gray-900 text-center md:text-left mb-8">
                       🔥 Most Popular <span className="text-red-600">Techniques</span>
                     </h2>
                     <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
@@ -177,7 +177,7 @@ export default function Blog() {
                 {/* Advanced Strategies */}
                 {productPosts.length > 0 && (
                   <div>
-                    <h2 className="text-4xl font-black text-gray-900 text-center md:text-left mb-8">
+                    <h2 className="h2 font-playfair-display text-gray-900 text-center md:text-left mb-8">
                       🎯 Advanced <span className="text-blue-600">Strategies</span>
                     </h2>
                     <div className="max-w-sm mx-auto md:max-w-none grid gap-12 md:grid-cols-3 md:gap-x-6 md:gap-y-8 items-start">
@@ -190,7 +190,7 @@ export default function Blog() {
 
                 {/* CTA to Join Training */}
                 <div className="text-center bg-gradient-to-r from-green-600 to-emerald-600 rounded-3xl p-12 text-white">
-                  <h3 className="text-4xl font-black mb-6">
+                  <h3 className="h3 font-playfair-display text-white mb-6">
                     🚀 Ready to Apply These Techniques?
                   </h3>
                   <p className="text-2xl text-green-100 mb-8 max-w-3xl mx-auto">
@@ -222,7 +222,7 @@ export default function Blog() {
         <section>
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="py-12 md:py-20 text-center">
-              <h2 className="text-4xl font-black text-gray-900 mb-8">Sales Psychology Articles Coming Soon</h2>
+              <h2 className="h2 font-playfair-display text-gray-900 mb-8">Sales Psychology Articles Coming Soon</h2>
               <p className="text-2xl text-gray-600 mb-8">We're working on exclusive content about the psychology behind sales success. In the meantime, get started with our proven training system.</p>
               <Link href="/signup" className="inline-block bg-green-600 hover:bg-green-700 text-white font-black text-xl py-6 px-12 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200">
                 🚀 Start Training Now - $47/month

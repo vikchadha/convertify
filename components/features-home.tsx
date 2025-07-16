@@ -9,7 +9,7 @@ export default function FeaturesHome() {
             <span className="mr-2">⚠️</span>
             The Sales Skills That Separate Winners from Losers
           </div>
-          <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
+          <h2 className="h2 font-playfair-display text-gray-900 mb-6">
             Master the <span className="text-green-600">Psychology</span> That
             <br />
             Makes Prospects <span className="text-blue-600">Beg to Buy</span>
@@ -27,7 +27,7 @@ export default function FeaturesHome() {
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 bg-red-500 rounded-xl flex items-center justify-center text-white text-2xl mr-4">🛡️</div>
               <div>
-                <h3 className="text-2xl font-bold text-gray-900">Objection Aikido</h3>
+                <h3 className="h3 font-playfair-display text-gray-900">Objection Aikido</h3>
                 <p className="text-red-600 font-semibold">Turn "No" Into "Yes"</p>
               </div>
             </div>
@@ -53,7 +53,7 @@ export default function FeaturesHome() {
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center text-white text-2xl mr-4">💎</div>
               <div>
-                <h3 className="text-2xl font-bold text-gray-900">Value Stacking</h3>
+                <h3 className="h3 font-playfair-display text-gray-900">Value Stacking</h3>
                 <p className="text-green-600 font-semibold">Justify ANY Price</p>
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function FeaturesHome() {
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center text-white text-2xl mr-4">⚡</div>
               <div>
-                <h3 className="text-2xl font-bold text-gray-900">Urgency Creation</h3>
+                <h3 className="h3 font-playfair-display text-gray-900">Urgency Creation</h3>
                 <p className="text-blue-600 font-semibold">Force Immediate Action</p>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function FeaturesHome() {
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center text-white text-2xl mr-4">👑</div>
               <div>
-                <h3 className="text-2xl font-bold text-gray-900">Authority Positioning</h3>
+                <h3 className="h3 font-playfair-display text-gray-900">Authority Positioning</h3>
                 <p className="text-purple-600 font-semibold">Become The Obvious Choice</p>
               </div>
             </div>

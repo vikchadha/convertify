@@ -5,7 +5,7 @@ export default function HowItWorks() {
         
         {/* Section header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
+          <h2 className="h2 font-playfair-display text-gray-900 mb-6">
             From <span className="text-red-600">Struggling Salesperson</span> to
             <br />
             <span className="text-green-600">Revenue Machine</span> in 30 Days
@@ -28,7 +28,7 @@ export default function HowItWorks() {
                 <div className="flex items-center mb-4">
                   <span className="text-3xl mr-3">🧠</span>
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900">Week 1: Mindset Reprogramming</h3>
+                    <h3 className="h3 font-playfair-display text-gray-900">Week 1: Mindset Reprogramming</h3>
                     <p className="text-red-600 font-semibold">Break the Fear Patterns</p>
                   </div>
                 </div>
@@ -53,7 +53,7 @@ export default function HowItWorks() {
                 <div className="flex items-center mb-4">
                   <span className="text-3xl mr-3">🎯</span>
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900">Week 2: Prospecting Mastery</h3>
+                    <h3 className="h3 font-playfair-display text-gray-900">Week 2: Prospecting Mastery</h3>
                     <p className="text-yellow-600 font-semibold">Fill Your Pipeline</p>
                   </div>
                 </div>
@@ -78,7 +78,7 @@ export default function HowItWorks() {
                 <div className="flex items-center mb-4">
                   <span className="text-3xl mr-3">⚡</span>
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900">Week 3: Closing Arsenal</h3>
+                    <h3 className="h3 font-playfair-display text-gray-900">Week 3: Closing Arsenal</h3>
                     <p className="text-blue-600 font-semibold">Weaponize Your Conversations</p>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ export default function HowItWorks() {
                 <div className="flex items-center mb-4">
                   <span className="text-3xl mr-3">🏆</span>
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900">Week 4: Elite Optimization</h3>
+                    <h3 className="h3 font-playfair-display text-gray-900">Week 4: Elite Optimization</h3>
                     <p className="text-green-600 font-semibold">Join the 1% Club</p>
                   </div>
                 </div>

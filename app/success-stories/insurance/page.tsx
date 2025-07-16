@@ -36,7 +36,7 @@ export default function InsuranceSuccessPage() {
                 Insurance Success Story
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 From <span className="text-red-400">Bottom 50%</span> to
                 <br />
                 <span className="text-green-400">Top 5% Nationally</span>
@@ -75,7 +75,7 @@ export default function InsuranceSuccessPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               Why I <span className="text-red-600">Almost Quit</span> Insurance
             </h2>
             
@@ -142,7 +142,7 @@ export default function InsuranceSuccessPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               The <span className="text-purple-600">Psychology Secret</span> of Top Insurance Producers
             </h2>
 
@@ -192,7 +192,7 @@ export default function InsuranceSuccessPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               The <span className="text-green-600">Psychology Techniques</span> That Changed Everything
             </h2>
 
@@ -241,7 +241,7 @@ export default function InsuranceSuccessPage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               My <span className="text-green-600">18-Month Journey</span> to the Top 5%
             </h2>
 
@@ -325,7 +325,7 @@ export default function InsuranceSuccessPage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
               The <span className="text-green-600">Real Victory</span>
             </h2>
 
@@ -375,7 +375,7 @@ export default function InsuranceSuccessPage() {
       {/* Final CTA */}
       <section className="bg-gradient-to-r from-purple-600 to-purple-700 py-16 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Your Journey to the Top 5% Starts Now
           </h2>
           <p className="text-2xl text-purple-100 mb-8 max-w-3xl mx-auto">

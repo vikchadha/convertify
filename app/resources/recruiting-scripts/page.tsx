@@ -29,7 +29,7 @@ export default function RecruitingScriptsPage() {
                 Recruiting Psychology Scripts
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 The <span className="text-indigo-400">Scripts</span> That Make
                 <br />
                 Google Engineers Quit
@@ -405,7 +405,7 @@ export default function RecruitingScriptsPage() {
       {/* Final CTA */}
       <section className="bg-gradient-to-br from-gray-900 to-black text-white py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Your Competition is Using These Scripts
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">

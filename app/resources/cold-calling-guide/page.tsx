@@ -35,7 +35,7 @@ export default function ColdCallingGuidePage() {
                 FREE: Cold Calling Mastery Guide
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 The <span className="text-blue-400">47-Second</span>
                 <br />
                 Cold Call System That Gets
@@ -76,7 +76,7 @@ export default function ColdCallingGuidePage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               Why 98% of Cold Calls <span className="text-red-600">Fail Instantly</span>
             </h2>
             
@@ -121,7 +121,7 @@ export default function ColdCallingGuidePage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               The <span className="text-green-600">47-Second System</span> (With Exact Scripts)
             </h2>
 
@@ -244,7 +244,7 @@ export default function ColdCallingGuidePage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               <span className="text-blue-600">Industry-Specific</span> Opening Scripts
             </h2>
 
@@ -297,7 +297,7 @@ export default function ColdCallingGuidePage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               <span className="text-red-600">Gatekeeper Scripts</span> That Actually Work
             </h2>
 
@@ -361,7 +361,7 @@ export default function ColdCallingGuidePage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               <span className="text-purple-600">Voicemails</span> That Get Callbacks
             </h2>
 
@@ -418,7 +418,7 @@ export default function ColdCallingGuidePage() {
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               <span className="text-green-600">Advanced Psychology</span> Techniques
             </h2>
 
@@ -479,7 +479,7 @@ export default function ColdCallingGuidePage() {
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+            <h2 className="h2 font-playfair-display text-center mb-16 text-gray-900">
               Track These <span className="text-blue-600">5 Metrics</span> or Fail
             </h2>
 
@@ -548,7 +548,7 @@ export default function ColdCallingGuidePage() {
       {/* Download CTA Section */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-700 py-16 text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Get the Complete Cold Calling System FREE
           </h2>
           <p className="text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">

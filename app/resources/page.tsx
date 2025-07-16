@@ -75,7 +75,7 @@ const CategorySection = ({ title, description, icon: Icon, children }: CategoryS
     <div className="flex items-center mb-8">
       <Icon className="w-8 h-8 text-blue-600 dark:text-blue-400 mr-4" />
       <div>
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">{title}</h2>
+        <h2 className="h2 font-playfair-display text-gray-900 dark:text-white">{title}</h2>
         <p className="text-gray-600 dark:text-gray-400">{description}</p>
       </div>
     </div>
@@ -99,7 +99,7 @@ export default function ResourcesPage() {
             100+ Battle-Tested Resources
           </div>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl text-premium-display mb-6 text-gray-900 dark:text-white hover-text-glow">
+          <h1 className="h1 font-playfair-display mb-6 text-gray-900 dark:text-white">
             Your Complete <span className="bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">Sales Arsenal</span>
           </h1>
           
@@ -128,7 +128,7 @@ export default function ResourcesPage() {
         {/* Featured Resources Banner */}
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 md:p-12 text-white mb-16">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="h2 font-playfair-display mb-4">
               🔥 Most Downloaded This Month
             </h2>
             <p className="text-xl text-blue-100 mb-8">

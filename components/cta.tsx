@@ -28,7 +28,7 @@ export default function Cta() {
             </div>
 
             <div className="relative">
-              <h2 className="text-5xl md:text-6xl lg:text-7xl font-black text-white mb-8 leading-tight">
+              <h2 className="h1 font-playfair-display text-white mb-8">
                 Stop Being the
                 <br />
                 <span className="text-red-300">"Almost"</span> Salesperson
@@ -40,7 +40,7 @@ export default function Cta() {
 
               {/* Pain points */}
               <div className="bg-black/30 backdrop-blur-sm rounded-2xl p-8 mb-12 max-w-4xl mx-auto border border-red-500/20">
-                <h3 className="text-2xl font-bold text-white mb-6">How Much Longer Will You Accept...</h3>
+                <h3 className="h3 font-playfair-display text-white mb-6">How Much Longer Will You Accept...</h3>
                 <div className="grid md:grid-cols-2 gap-6 text-left">
                   <div className="flex items-start space-x-3">
                     <span className="text-red-400 text-xl mt-1">❌</span>
@@ -75,7 +75,7 @@ export default function Cta() {
 
               {/* Final offer */}
               <div className="bg-gradient-to-r from-green-600 to-emerald-600 rounded-2xl p-10 mb-8 text-white shadow-2xl">
-                <h3 className="text-4xl font-bold mb-4">Last Chance: Transform Your Sales Career</h3>
+                <h3 className="h2 font-playfair-display mb-4">Last Chance: Transform Your Sales Career</h3>
                 <div className="flex items-center justify-center space-x-8 mb-6">
                   <div className="text-center">
                     <div className="text-3xl line-through text-red-300 mb-1">$197/month</div>

@@ -35,7 +35,7 @@ export default function CorporateInnovatorPage() {
                 Internal Influence Psychology
               </div>
 
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight mb-8">
+              <h1 className="h1 font-playfair-display text-white mb-8">
                 From <span className="text-red-400">Ignored Analyst</span>
                 <br />
                 to <span className="text-green-400">Chief Innovation Officer</span>
@@ -74,7 +74,7 @@ export default function CorporateInnovatorPage() {
       {/* The Frustration */}
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <h2 className="text-4xl font-black text-center mb-12 text-gray-900">
+          <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
             The <span className="text-red-600">Corporate Innovation Graveyard</span>
           </h2>
 
@@ -110,7 +110,7 @@ export default function CorporateInnovatorPage() {
       {/* The Discovery */}
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <h2 className="text-4xl font-black text-center mb-12 text-gray-900">
+          <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
             The <span className="text-orange-600">Psychology Breakthrough</span>
           </h2>
 
@@ -148,7 +148,7 @@ export default function CorporateInnovatorPage() {
       {/* The Psychology Tactics */}
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <h2 className="text-4xl font-black text-center mb-12 text-gray-900">
+          <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
             The <span className="text-green-600">Influence Psychology</span> She Used
           </h2>
 
@@ -207,7 +207,7 @@ export default function CorporateInnovatorPage() {
       {/* The Ascent */}
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <h2 className="text-4xl font-black text-center mb-12 text-gray-900">
+          <h2 className="h2 font-playfair-display text-center mb-12 text-gray-900">
             <span className="text-green-600">The Meteoric Rise</span>
           </h2>
 
@@ -272,7 +272,7 @@ export default function CorporateInnovatorPage() {
       {/* The System */}
       <section className="bg-gradient-to-br from-gray-900 to-black text-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="h2 font-playfair-display mb-8">
             Master the Same Psychology Rachel Used
           </h2>
 

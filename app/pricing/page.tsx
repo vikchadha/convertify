@@ -27,7 +27,7 @@ export default function PricingPage() {
           
           {/* Page header */}
           <div className="text-center mb-16">
-            <h1 className="text-5xl md:text-6xl font-black text-gray-900 mb-6 leading-tight">
+            <h1 className="h1 font-playfair-display text-gray-900 mb-6">
               Stop <span className="text-red-600">Losing Money</span> Every Day
               <br />
               You Don't Have These Skills
@@ -39,7 +39,7 @@ export default function PricingPage() {
             
             {/* ROI Calculator */}
             <div className="bg-yellow-50 border-2 border-yellow-300 rounded-2xl p-8 max-w-3xl mx-auto mb-12">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">💰 ROI Calculator: What You're Losing</h3>
+              <h3 className="h3 font-playfair-display text-gray-900 mb-4">💰 ROI Calculator: What You're Losing</h3>
               <div className="grid md:grid-cols-3 gap-6 text-center">
                 <div>
                   <div className="text-3xl font-bold text-red-600">-$127K</div>
@@ -69,7 +69,7 @@ export default function PricingPage() {
               </div>
 
               <div className="text-center mb-8">
-                <h3 className="text-4xl font-black text-white mb-4">Elite Sales Mastery Program</h3>
+                <h3 className="h2 font-playfair-display text-white mb-4">Elite Sales Mastery Program</h3>
                 <p className="text-2xl text-green-100 mb-6">
                   Everything you need to become a <strong>top 1% performer</strong>
                 </p>
@@ -93,7 +93,7 @@ export default function PricingPage() {
               {/* What's included */}
               <div className="grid md:grid-cols-2 gap-6 mb-10">
                 <div className="space-y-4">
-                  <h4 className="text-2xl font-bold text-white mb-4">🎯 Core Training Modules</h4>
+                  <h4 className="h3 font-playfair-display text-white mb-4">🎯 Core Training Modules</h4>
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <span className="text-green-300 text-xl">✓</span>
@@ -119,7 +119,7 @@ export default function PricingPage() {
                 </div>
                 
                 <div className="space-y-4">
-                  <h4 className="text-2xl font-bold text-white mb-4">🚀 Premium Resources</h4>
+                  <h4 className="h3 font-playfair-display text-white mb-4">🚀 Premium Resources</h4>
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <span className="text-green-300 text-xl">✓</span>
@@ -147,7 +147,7 @@ export default function PricingPage() {
 
               {/* Total value */}
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 mb-8 text-center">
-                <h4 className="text-2xl font-bold text-white mb-2">💎 Total Value: $2,364/month</h4>
+                <h4 className="h3 font-playfair-display text-white mb-2">💎 Total Value: $2,364/month</h4>
                 <p className="text-green-200 text-lg">
                   You pay only <strong className="text-yellow-300">$47/month</strong> - that's a 95% discount
                 </p>
@@ -168,7 +168,7 @@ export default function PricingPage() {
 
           {/* Testimonials Section */}
           <div className="max-w-6xl mx-auto mb-20">
-            <h2 className="text-4xl md:text-5xl font-black text-gray-900 text-center mb-16">
+            <h2 className="h2 font-playfair-display text-gray-900 text-center mb-16">
               What Our <span className="text-green-600">Top Performers</span> Are Saying
             </h2>
             
@@ -225,7 +225,7 @@ export default function PricingPage() {
 
           {/* FAQ Section */}
           <div className="max-w-2xl mx-auto pt-16 pb-12 md:pt-20 md:pb-20">
-            <h2 className="text-3xl md:text-4xl font-black text-gray-900 text-center mb-12">
+            <h2 className="h2 font-playfair-display text-gray-900 text-center mb-12">
               <span className="text-red-600">Objections?</span> We've Heard Them All
             </h2>
             <div className="space-y-8">
@@ -290,7 +290,7 @@ export default function PricingPage() {
                 FINAL WARNING: Offer Expires Tonight at Midnight
               </div>
               
-              <h2 className="text-4xl md:text-5xl font-black text-white mb-6 leading-tight relative">
+              <h2 className="h2 font-playfair-display text-white mb-6 relative">
                 Don't Let Another Month Go By
                 <br />
                 <span className="text-red-300">Watching Others Succeed</span>

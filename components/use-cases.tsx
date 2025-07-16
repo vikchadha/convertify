@@ -5,7 +5,7 @@ export default function UseCases() {
         
         {/* Section header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
+          <h2 className="h2 font-playfair-display text-gray-900 mb-6">
             Real Success Stories From
             <br />
             <span className="text-green-600">Sales Professionals</span> Like You
@@ -25,7 +25,7 @@ export default function UseCases() {
                 💻
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900">SaaS Sales Rep</h3>
+                <h3 className="h4 font-playfair-display text-gray-900">SaaS Sales Rep</h3>
                 <p className="text-blue-600 font-semibold">From $60K to $180K/year</p>
               </div>
             </div>
@@ -62,7 +62,7 @@ export default function UseCases() {
                 🏠
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900">Real Estate Agent</h3>
+                <h3 className="h4 font-playfair-display text-gray-900">Real Estate Agent</h3>
                 <p className="text-green-600 font-semibold">From 12 to 47 homes/year</p>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function UseCases() {
                 🛡️
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-900">Insurance Advisor</h3>
+                <h3 className="h4 font-playfair-display text-gray-900">Insurance Advisor</h3>
                 <p className="text-purple-600 font-semibold">From struggling to top 5%</p>
               </div>
             </div>

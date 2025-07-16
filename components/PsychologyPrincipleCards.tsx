@@ -100,7 +100,7 @@ export default function PsychologyPrincipleCards() {
   return (
     <div className="py-12">
       <div className="text-center mb-12 max-w-4xl mx-auto px-4">
-        <h2 className="heading-lg mb-4 text-gray-900 dark:text-white">
+        <h2 className="h2 font-playfair-display mb-4 text-gray-900 dark:text-white">
           Master the 6 Core <span className="text-primary-gradient">Psychology Principles</span>
         </h2>
         <p className="body-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
