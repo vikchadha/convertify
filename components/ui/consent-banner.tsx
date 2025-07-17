@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function ConsentBanner() {
   const [showBanner, setShowBanner] = useState(false)
-  const [isClient, setIsClient] = useState(false)
+  const [showSettings, setShowSettings] = useState(false)
   const [preferences, setPreferences] = useState({
     necessary: true,
     analytics: false,
@@ -13,14 +13,9 @@ export default function ConsentBanner() {
   })
 
   useEffect(() => {
-    setIsClient(true)
     const consent = localStorage.getItem('cookieConsent')
-    console.log('ConsentBanner: checking localStorage', { consent })
     if (!consent) {
       setShowBanner(true)
-      console.log('ConsentBanner: showing banner')
-    } else {
-      console.log('ConsentBanner: consent found, not showing banner')
     }
   }, [])
 
@@ -55,92 +50,106 @@ export default function ConsentBanner() {
     setShowBanner(false)
   }
 
-  if (!isClient || !showBanner) return null
+  if (!showBanner) return null
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-[99999] bg-white border-t border-gray-200 shadow-lg">
-      {/* Debug indicator */}
-      <div className="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 text-xs rounded">
-        CONSENT BANNER VISIBLE
-      </div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
-        <div className="md:flex md:items-start md:justify-between">
-          <div className="mb-4 md:mb-0 md:mr-8">
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">
-              We value your privacy
-            </h3>
-            <p className="text-sm text-gray-600 mb-4">
-              We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. 
-              By clicking "Accept All", you consent to our use of cookies. You can manage your preferences below.
-            </p>
+    <div className="fixed bottom-0 left-0 right-0 z-50 bg-slate-50/95 backdrop-blur-sm border-t border-slate-200/50 shadow-sm">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3">
+        {!showSettings ? (
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div className="flex-1">
+              <p className="text-sm text-slate-600">
+                We use cookies to improve your experience. 
+                <Link href="/privacy-policy" className="text-slate-500 hover:text-slate-700 underline ml-1">
+                  Privacy Policy
+                </Link>
+              </p>
+            </div>
             
-            <div className="space-y-3">
-              <label className="flex items-center">
+            <div className="flex flex-wrap gap-2">
+              <button
+                onClick={() => setShowSettings(true)}
+                className="px-3 py-1.5 text-sm text-slate-500 hover:text-slate-700 transition-colors"
+              >
+                Manage
+              </button>
+              <button
+                onClick={rejectAll}
+                className="px-3 py-1.5 text-sm font-medium text-slate-600 hover:text-slate-800 transition-colors"
+              >
+                Decline
+              </button>
+              <button
+                onClick={acceptAll}
+                className="px-4 py-1.5 text-sm font-medium text-white bg-slate-800 hover:bg-slate-900 rounded transition-colors"
+              >
+                Accept
+              </button>
+            </div>
+          </div>
+        ) : (
+          <div className="space-y-3">
+            <div className="flex items-center justify-between">
+              <h3 className="text-sm font-medium text-slate-900">Cookie Preferences</h3>
+              <button
+                onClick={() => setShowSettings(false)}
+                className="text-slate-400 hover:text-slate-600 text-lg leading-none"
+              >
+                ×
+              </button>
+            </div>
+            
+            <div className="grid sm:grid-cols-3 gap-3 text-xs">
+              <label className="flex items-start space-x-2">
                 <input
                   type="checkbox"
                   checked={preferences.necessary}
                   disabled
-                  className="mr-3 h-4 w-4 text-blue-600 border-gray-300 rounded"
+                  className="mt-0.5 h-3 w-3 text-slate-600 border-slate-300 rounded"
                 />
-                <span className="text-sm">
-                  <span className="font-medium text-gray-900">Necessary cookies</span>
-                  <span className="text-gray-500 ml-1">(Always enabled)</span>
-                </span>
+                <div>
+                  <div className="font-medium text-slate-900">Essential</div>
+                  <div className="text-slate-500">Required for site functionality</div>
+                </div>
               </label>
               
-              <label className="flex items-center">
+              <label className="flex items-start space-x-2">
                 <input
                   type="checkbox"
                   checked={preferences.analytics}
                   onChange={(e) => setPreferences({...preferences, analytics: e.target.checked})}
-                  className="mr-3 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                  className="mt-0.5 h-3 w-3 text-slate-600 border-slate-300 rounded focus:ring-slate-500"
                 />
-                <span className="text-sm">
-                  <span className="font-medium text-gray-900">Analytics cookies</span>
-                  <span className="text-gray-500 ml-1">(Help us improve)</span>
-                </span>
+                <div>
+                  <div className="font-medium text-slate-900">Analytics</div>
+                  <div className="text-slate-500">Help us improve our service</div>
+                </div>
               </label>
               
-              <label className="flex items-center">
+              <label className="flex items-start space-x-2">
                 <input
                   type="checkbox"
                   checked={preferences.marketing}
                   onChange={(e) => setPreferences({...preferences, marketing: e.target.checked})}
-                  className="mr-3 h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                  className="mt-0.5 h-3 w-3 text-slate-600 border-slate-300 rounded focus:ring-slate-500"
                 />
-                <span className="text-sm">
-                  <span className="font-medium text-gray-900">Marketing cookies</span>
-                  <span className="text-gray-500 ml-1">(Personalized ads)</span>
-                </span>
+                <div>
+                  <div className="font-medium text-slate-900">Marketing</div>
+                  <div className="text-slate-500">Personalized content & ads</div>
+                </div>
               </label>
             </div>
             
-            <p className="text-xs text-gray-500 mt-3">
-              Learn more in our <Link href="/privacy-policy" className="text-blue-600 hover:text-blue-700 underline">Privacy Policy</Link> and <Link href="/cookie-policy" className="text-blue-600 hover:text-blue-700 underline">Cookie Policy</Link>
-            </p>
+            <div className="flex justify-end">
+              <button
+                onClick={acceptSelected}
+                className="px-4 py-1.5 text-sm font-medium text-white bg-slate-800 hover:bg-slate-900 rounded transition-colors"
+              >
+                Save Preferences
+              </button>
+            </div>
           </div>
-          
-          <div className="flex flex-col sm:flex-row gap-3 sm:items-center">
-            <button
-              onClick={rejectAll}
-              className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
-            >
-              Reject All
-            </button>
-            <button
-              onClick={acceptSelected}
-              className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors"
-            >
-              Accept Selected
-            </button>
-            <button
-              onClick={acceptAll}
-              className="px-4 py-2 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors"
-            >
-              Accept All
-            </button>
-          </div>
-        </div>
+        )}
       </div>
     </div>
   )
