@@ -4,6 +4,7 @@ import { Inter, Playfair_Display } from 'next/font/google'
 import { Providers } from './providers'
 import Header from '@/components/ui/header'
 import Footer from '@/components/ui/footer'
+import ConsentBanner from '@/components/ui/consent-banner'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 import Script from 'next/script';
 
@@ -51,6 +52,7 @@ export default function RootLayout({
               {children}
             </main>
             <Footer />
+            <ConsentBanner />
           </div>
         </Providers>
       </body>
