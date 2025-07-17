@@ -78,10 +78,24 @@ export default function MobileMenu() {
           className="absolute top-full h-screen pb-16 z-20 left-0 w-full overflow-scroll bg-white transform transition ease-out duration-200 data-enter:data-closed:-translate-y-2 data-closed:opacity-0"
         >        
           <ul className="px-5 py-2">
-            <li>
-              <Link href="/how-it-works" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>
-                How It Works
-              </Link>
+            <li className="py-2 my-2 border-b border-gray-200">
+              <Link href="/training" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Training Programs</Link>
+              <ul className="pl-4">
+                <li>
+                  <Link href="/training/sales-psychology" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Sales Psychology</Link>
+                </li>
+                <li>
+                  <Link href="/training/fundraising-psychology" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Fundraising Psychology</Link>
+                </li>
+                <li>
+                  <Link href="/training/interview-psychology" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Interview Psychology</Link>
+                </li>
+                <li>
+                  <Link href="/training/ai-coach" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>
+                    ✨ AI Coach <span className="ml-2 text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">NEW</span>
+                  </Link>
+                </li>
+              </ul>
             </li>
             <li>
               <Link href="/quiz" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>
@@ -91,37 +105,12 @@ export default function MobileMenu() {
             <li>
               <Link href="/pricing" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Pricing</Link>
             </li>
-            <li>
-              <Link href="/about" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>About</Link>
-            </li>
-            <li>
-              <Link href="/blog" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Blog</Link>
-            </li>
-            <li>
-              <Link href="/training/ai-coach" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>
-                ✨ AI Coach <span className="ml-2 text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full">NEW</span>
-              </Link>
-            </li>
-            <li className="py-2 my-2 border-t border-b border-gray-200">
-              <Link href="/resources" className="flex font-medium text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>📚 Resources</Link>
-              <ul className="pl-4">
-                <li>
-                  <Link href="/resources/objection-scripts" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Objection Scripts</Link>
-                </li>
-                <li>
-                  <Link href="/resources/cold-calling-guide" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Cold Calling Guide</Link>
-                </li>
-                <li>
-                  <Link href="/resources/email-templates" className="text-sm flex font-medium text-slate-600 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Email Templates</Link>
-                </li>
-              </ul>
-            </li>
-            <li>
+            <li className="py-2 my-2 border-t border-gray-200">
               <Link href="/signin" className="flex font-medium w-full text-slate-800 hover:text-blue-600 py-2" onClick={() => setMobileNavOpen(false)}>Sign in</Link>
             </li>
             <li>
-              <Link href="/request-demo" className="flex font-medium text-blue-600 py-2 group" onClick={() => setMobileNavOpen(false)}>
-                Request Demo <span className="tracking-normal text-blue-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+              <Link href="/signup" className="btn-sm text-white bg-slate-800 hover:bg-slate-900 mx-3 shadow-sm transition-all duration-200 text-center">
+                Start Free Trial
               </Link>
             </li>
           </ul>

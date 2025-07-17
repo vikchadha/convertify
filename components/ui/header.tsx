@@ -60,37 +60,6 @@ export default function Header() {
                   </Link>
                 </li>
               </Dropdown>
-              <Dropdown title="Success Stories">
-                <li>
-                  <Link href="/success-stories/startup-founder" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Startup Founder</Link>
-                </li>
-                <li>
-                  <Link href="/success-stories/executive-job-search" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Executive Job Search</Link>
-                </li>
-                <li>
-                  <Link href="/success-stories/corporate-innovator" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Corporate Innovator</Link>
-                </li>
-                <li>
-                  <Link href="/success-stories/startup-recruiter" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Startup Recruiter</Link>
-                </li>
-                <li>
-                  <Link href="/success-stories/saas" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">SaaS Sales</Link>
-                </li>
-                <li>
-                  <Link href="/success-stories/real-estate" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Real Estate</Link>
-                </li>
-                <li>
-                  <Link href="/success-stories/insurance" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Insurance</Link>
-                </li>
-                <li>
-                  <Link href="/success-stories/b2b" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">B2B Sales</Link>
-                </li>
-              </Dropdown>
-              <li>
-                <Link href="/how-it-works" className="hover:text-slate-700 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out text-gray-800 font-medium">
-                  How It Works
-                </Link>
-              </li>
               <li>
                 <Link href="/quiz" className="hover:text-slate-700 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out text-gray-800 font-medium">
                   Quiz
@@ -99,35 +68,6 @@ export default function Header() {
               <li>
                 <Link href="/pricing" className="hover:text-slate-700 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out text-gray-800 font-medium">Pricing</Link>
               </li>
-              <Dropdown title="Resources">
-                <li>
-                  <Link href="/resources" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight border-b border-gray-100 mb-1 pb-3">📚 View All Resources</Link>
-                </li>
-                <li>
-                  <Link href="/resources/pitch-deck-psychology" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Pitch Deck Templates</Link>
-                </li>
-                <li>
-                  <Link href="/resources/interview-scripts" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Interview Scripts</Link>
-                </li>
-                <li>
-                  <Link href="/resources/budget-approval-templates" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Budget Approval Templates</Link>
-                </li>
-                <li>
-                  <Link href="/resources/recruiting-scripts" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Recruiting Scripts</Link>
-                </li>
-                <li>
-                  <Link href="/resources/objection-scripts" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Objection Scripts</Link>
-                </li>
-                <li>
-                  <Link href="/resources/cold-calling-guide" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Cold Calling Guide</Link>
-                </li>
-                <li>
-                  <Link href="/resources/salary-negotiation" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Salary Negotiation</Link>
-                </li>
-                <li>
-                  <Link href="/blog" className="font-medium text-sm hover:text-slate-700 flex py-2 px-5 leading-tight">Blog</Link>
-                </li>
-              </Dropdown>
             </ul>
             <ul className="flex grow justify-end flex-wrap items-center font-semibold">
               <li>
