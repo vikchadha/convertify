@@ -181,6 +181,67 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Founder Bio Section */}
+      <section className="bg-white py-16 md:py-24">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-black text-center mb-16 text-gray-900">
+              <span className="text-blue-600">Mastering</span> the Science of Persuasion
+            </h2>
+            
+            <div className="prose prose-lg max-w-none">
+              <p className="text-xl text-gray-700 leading-relaxed mb-8">
+                <Link href="https://vikchadha.com" className="text-blue-600 hover:text-blue-800 underline">Vik Chadha</Link>'s creation of Convertify stemmed from a painful realization during his early days at EnterpriseCorp: watching brilliant entrepreneurs fail not because of bad products, but because they couldn't sell them effectively.
+              </p>
+              
+              <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-xl my-8">
+                <p className="text-lg text-gray-800 italic mb-0">
+                  "I helped a founder with revolutionary technology lose to an inferior competitor who simply sold better," Vik reflects. "That's when I realized: in business, the best product rarely wins. The best salesperson does. Convertify exists to level that playing field."
+                </p>
+              </div>
+              
+              <p className="text-xl text-gray-700 leading-relaxed mb-8">
+                Having raised $22 million for <Link href="https://backupify.com" rel="nofollow" className="text-blue-600 hover:text-blue-800 underline">Backupify</Link> and helped companies raise over $100 million collectively, Vik understood that selling is psychology, not personality. His experience pitching to top-tier VCs like General Catalyst and First Round Capital taught him that specific psychological triggers drive decisions, regardless of the buyer's sophistication.
+              </p>
+              
+              <p className="text-xl text-gray-700 leading-relaxed mb-8">
+                Through building <Link href="https://glowtouch.com" rel="nofollow" className="text-blue-600 hover:text-blue-800 underline">GlowTouch</Link> to 2,800 employees, Vik learned that sales success is systematic, not sporadic. The same psychological principles that convinced Fortune 500 companies to outsource to a startup could be taught, refined, and replicated.
+              </p>
+              
+              <p className="text-xl text-gray-700 leading-relaxed mb-8">
+                Convertify distills decades of high-stakes selling into actionable training. It's not about scripts or tricks—it's about understanding the neuroscience of decision-making and applying it ethically to create win-win outcomes.
+              </p>
+              
+              <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-xl my-8">
+                <p className="text-lg text-gray-800 italic mb-0">
+                  "Most sales training teaches tactics. Convertify teaches the psychology behind why people buy," Vik explains. "When you understand the 'why,' the 'how' becomes obvious. It's the difference between memorizing moves and mastering chess."
+                </p>
+              </div>
+              
+              <p className="text-xl text-gray-700 leading-relaxed mb-8">
+                Today, Convertify helps thousands of sales professionals transform from order-takers to trusted advisors, proving that sales excellence is a learnable science, not an inborn talent.
+              </p>
+            </div>
+            
+            {/* Achievement highlights */}
+            <div className="grid md:grid-cols-3 gap-6 mt-12">
+              <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 text-center">
+                <div className="text-3xl font-bold text-blue-700 mb-2">$22M</div>
+                <div className="text-blue-600">Raised for Backupify</div>
+              </div>
+              <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-2xl p-6 text-center">
+                <div className="text-3xl font-bold text-green-700 mb-2">$100M+</div>
+                <div className="text-green-600">Helped companies raise</div>
+              </div>
+              <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6 text-center">
+                <div className="text-3xl font-bold text-purple-700 mb-2">2,800</div>
+                <div className="text-purple-600">Employees at GlowTouch</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Results Section */}
       <section className="bg-gray-50 py-16 md:py-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
